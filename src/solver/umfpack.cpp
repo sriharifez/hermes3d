@@ -125,13 +125,20 @@ void UMFPackMatrix::add(int m, int n, scalar **mat, int *rows, int *cols) {
 bool UMFPackMatrix::dump(FILE *file, const char *var_name, EMatrixDumpFormat fmt) {
 	_F_
 	switch (fmt) {
-		case DF_MATLAB_SPARSE:
+		/*case DF_MATLAB_SPARSE:
 			fprintf(file, "%% Size: %dx%d\n%% Nonzeros: %d\ntemp = zeros(%d, 3);\ntemp = [\n", size, size, Ap[size], Ap[size]);
 			for (int j = 0; j < size; j++)
 				for (int i = Ap[j]; i < Ap[j + 1]; i++)
 					fprintf(file, "%d %d " SCALAR_FMT "\n", Ai[i] + 1, j + 1, SCALAR(Ax[i]));
 			fprintf(file, "];\n%s = spconvert(temp);\n", var_name);
 
+			return true;*/
+//MODIFIED for Hydrogen Code
+               case DF_MATLAB_SPARSE:
+			fprintf(file, "%d %d %d\n", size, size, Ap[size]);
+			for (int j = 0; j < size; j++)
+				for (int i = Ap[j]; i < Ap[j + 1]; i++)
+					fprintf(file, "%d %d " SCALAR_FMT "\n", Ai[i] + 1, j + 1, SCALAR(Ax[i]));
 			return true;
 
 		case DF_HERMES_BIN: {
