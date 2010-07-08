@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/mesh-loader.dir/main.cpp.o CMakeFiles/mesh-loader.dir/__/__/common/trace.cpp.o  -o mesh-loader -rdynamic ../../src/libhermes3d-debug.so -lJudy -lumfpack -lamd -lblas -llapack -lblas -llapack -Wl,-rpath,/home/sri/hermes3d/src 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/output-gmsh.dir/main.cpp.o  -o output-gmsh -rdynamic -lJudy -lumfpack -lamd -lblas -llapack -lblas ../../src/libhermes3d-debug.so -lJudy -lumfpack -lamd -lblas -llapack -lblas -llapack -Wl,-rpath,/home/sri/hermes3d/src 

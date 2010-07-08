@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/mesh-copy.dir/mesh-copy.cpp.o CMakeFiles/mesh-copy.dir/__/__/__/common/timer.cpp.o CMakeFiles/mesh-copy.dir/__/__/__/common/error.cpp.o  -o mesh-copy -rdynamic -lJudy -lumfpack -lamd -lblas -llapack -lblas ../../../src/libhermes3d-debug.so -lJudy -lumfpack -lamd -lblas -llapack -lblas -llapack -Wl,-rpath,/home/sri/hermes3d/src 

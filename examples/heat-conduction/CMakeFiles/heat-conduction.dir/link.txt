@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/heat-conduction.dir/main.cpp.o CMakeFiles/heat-conduction.dir/__/__/common/timer.cpp.o CMakeFiles/heat-conduction.dir/__/__/common/error.cpp.o  -o heat-conduction -rdynamic ../../src/libhermes3d-debug.so -lJudy -lumfpack -lamd -lblas -llapack -lblas -llapack -Wl,-rpath,/home/sri/hermes3d/src 

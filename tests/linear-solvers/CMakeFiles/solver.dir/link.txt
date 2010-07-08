@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/solver.dir/main.cpp.o CMakeFiles/solver.dir/__/__/common/trace.cpp.o  -o solver -rdynamic -lJudy -lumfpack -lamd -lblas -llapack -lblas ../../src/libhermes3d-debug.so -lJudy -lumfpack -lamd -lblas -llapack -lblas -llapack -Wl,-rpath,/home/sri/hermes3d/src 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/calc-hex-hcurl.dir/hex-hcurl.cpp.o CMakeFiles/calc-hex-hcurl.dir/__/__/__/common/timer.cpp.o CMakeFiles/calc-hex-hcurl.dir/__/__/__/common/error.cpp.o  -o calc-hex-hcurl -rdynamic -lJudy -lumfpack -lamd -lblas -llapack -lblas ../../../src/libhermes3d-debug.so -lJudy -lumfpack -lamd -lblas -llapack -lblas -llapack -Wl,-rpath,/home/sri/hermes3d/src 
