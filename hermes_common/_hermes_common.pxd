@@ -91,7 +91,12 @@ cdef extern from "matrix.h":
         void add_cplx "add"(int m, int n, cplx v)
 
     cdef struct c_CooMatrix "CooMatrix":
+<<<<<<< HEAD
         int get_nnz()
+=======
+        int triplets_len()
+        int triplets_len_cplx()
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
         void get_row_col_data(int *row, int *col, double *data)
         void get_row_col_data_cplx "get_row_col_data"(int *row, int *col,
                 cplx *data)
@@ -101,10 +106,17 @@ cdef extern from "matrix.h":
 
     cdef struct c_CSRMatrix "CSRMatrix":
         CSRMatrix(int size)
+<<<<<<< HEAD
         int *get_Ap()
         int *get_Ai()
         double *get_Ax()
         cplx *get_Ax_cplx()
+=======
+        int *get_IA()
+        int *get_JA()
+        double *get_A()
+        cplx *get_A_cplx()
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
         int get_nnz()
     c_CSRMatrix *new_CSRMatrix_size "new CSRMatrix" (int size)
     c_CSRMatrix *new_CSRMatrix_coo_matrix "new CSRMatrix" (c_CooMatrix *m)
@@ -112,10 +124,17 @@ cdef extern from "matrix.h":
 
     cdef struct c_CSCMatrix "CSCMatrix":
         CSCMatrix(int size)
+<<<<<<< HEAD
         int *get_Ap()
         int *get_Ai()
         double *get_Ax()
         cplx *get_Ax_cplx()
+=======
+        int *get_IA()
+        int *get_JA()
+        double *get_A()
+        cplx *get_A_cplx()
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
         int get_nnz()
     c_CSCMatrix *new_CSCMatrix_size "new CSCMatrix" (int size)
     c_CSCMatrix *new_CSCMatrix_coo_matrix "new CSCMatrix" (c_CooMatrix *m)
@@ -127,4 +146,7 @@ cdef api object c2numpy_double(double *A, int len)
 cdef api void numpy2c_double_inplace(object A_n, double **A_c, int *n)
 
 cdef inline PY_NEW(T)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad

@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/leaks.dir/main.cpp.o CMakeFiles/leaks.dir/cpp_api.cpp.o  -o leaks -rdynamic ../../libhermes_common.so /usr/lib/python2.6/config/libpython2.6.so -Wl,-rpath,/home/sri/hermes2d/hermes_common:/usr/lib/python2.6/config 

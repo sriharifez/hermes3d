@@ -35,6 +35,10 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/sri/hermes3d/examples/elastostatics/cmake_install.cmake")
+<<<<<<< HEAD
+=======
+  INCLUDE("/home/sri/hermes3d/examples/fichera/cmake_install.cmake")
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
   INCLUDE("/home/sri/hermes3d/examples/heat-conduction/cmake_install.cmake")
   INCLUDE("/home/sri/hermes3d/examples/heat-cubit/cmake_install.cmake")
   INCLUDE("/home/sri/hermes3d/examples/singpert-aniso/cmake_install.cmake")

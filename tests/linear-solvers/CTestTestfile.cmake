@@ -12,5 +12,8 @@ ADD_TEST(umfpack-solver-b-1 "sh" "-c" "/home/sri/hermes3d/tests/linear-solvers/s
 ADD_TEST(umfpack-solver-b-2 "sh" "-c" "/home/sri/hermes3d/tests/linear-solvers/solver umfpack-block /home/sri/hermes3d/tests/linear-solvers/in/linsys-2 | diff - /home/sri/hermes3d/tests/linear-solvers/out/linsys-2")
 ADD_TEST(umfpack-solver-b-3 "sh" "-c" "/home/sri/hermes3d/tests/linear-solvers/solver umfpack-block /home/sri/hermes3d/tests/linear-solvers/in/linsys-3 | diff - /home/sri/hermes3d/tests/linear-solvers/out/linsys-3")
 ADD_TEST(umfpack-solver-b-4 "sh" "-c" "/home/sri/hermes3d/tests/linear-solvers/solver umfpack-block /home/sri/hermes3d/tests/linear-solvers/in/linsys-singular | diff - /home/sri/hermes3d/tests/linear-solvers/out/linsys-singular")
+<<<<<<< HEAD
 ADD_TEST(umfpack-solver-cplx-1 "sh" "-c" "/home/sri/hermes3d/tests/linear-solvers/solver-cplx umfpack | diff - /home/sri/hermes3d/tests/linear-solvers/out/linsys-cplx-1")
 ADD_TEST(umfpack-solver-cplx-b-1 "sh" "-c" "/home/sri/hermes3d/tests/linear-solvers/solver-cplx umfpack-block | diff - /home/sri/hermes3d/tests/linear-solvers/out/linsys-cplx-1")
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad

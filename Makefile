@@ -206,6 +206,7 @@ test-quick/fast:
 .PHONY : test-quick/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named hermes3d-cplx-debug
 
 # Build rule for target.
@@ -219,6 +220,8 @@ hermes3d-cplx-debug/fast:
 .PHONY : hermes3d-cplx-debug/fast
 
 #=============================================================================
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 # Target rules for targets named hermes3d-debug
 
 # Build rule for target.
@@ -440,6 +443,7 @@ calc-hex-hcurl/fast:
 .PHONY : calc-hex-hcurl/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named calc-hex-hcurl-cplx
 
 # Build rule for target.
@@ -466,6 +470,8 @@ calc-hex-hcurl-imped/fast:
 .PHONY : calc-hex-hcurl-imped/fast
 
 #=============================================================================
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 # Target rules for targets named hnnd-hex-h1-dirichlet
 
 # Build rule for target.
@@ -531,6 +537,7 @@ solver/fast:
 .PHONY : solver/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named solver-cplx
 
 # Build rule for target.
@@ -544,6 +551,8 @@ solver-cplx/fast:
 .PHONY : solver-cplx/fast
 
 #=============================================================================
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 # Target rules for targets named mesh-copy
 
 # Build rule for target.
@@ -700,6 +709,22 @@ elastostatics/fast:
 .PHONY : elastostatics/fast
 
 #=============================================================================
+<<<<<<< HEAD
+=======
+# Target rules for targets named fichera
+
+# Build rule for target.
+fichera: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fichera
+.PHONY : fichera
+
+# fast build rule for target.
+fichera/fast:
+	$(MAKE) -f examples/fichera/CMakeFiles/fichera.dir/build.make examples/fichera/CMakeFiles/fichera.dir/build
+.PHONY : fichera/fast
+
+#=============================================================================
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 # Target rules for targets named heat-conduction
 
 # Build rule for target.
@@ -726,6 +751,7 @@ singpert-aniso/fast:
 .PHONY : singpert-aniso/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named fichera
 
 # Build rule for target.
@@ -739,6 +765,8 @@ fichera/fast:
 .PHONY : fichera/fast
 
 #=============================================================================
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 # Target rules for targets named layer
 
 # Build rule for target.
@@ -751,6 +779,7 @@ layer/fast:
 	$(MAKE) -f benchmarks/layer/CMakeFiles/layer.dir/build.make benchmarks/layer/CMakeFiles/layer.dir/build
 .PHONY : layer/fast
 
+<<<<<<< HEAD
 #=============================================================================
 # Target rules for targets named bessel
 
@@ -764,6 +793,8 @@ bessel/fast:
 	$(MAKE) -f benchmarks/bessel/CMakeFiles/bessel.dir/build.make benchmarks/bessel/CMakeFiles/bessel.dir/build
 .PHONY : bessel/fast
 
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -782,7 +813,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... test-quick"
+<<<<<<< HEAD
 	@echo "... hermes3d-cplx-debug"
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	@echo "... hermes3d-debug"
 	@echo "... adapt-h1-simple"
 	@echo "... projection"
@@ -800,14 +834,20 @@ help:
 	@echo "... calc-hex-h1-sys-dirichlet"
 	@echo "... calc-hex-h1-sys-coupled"
 	@echo "... calc-hex-hcurl"
+<<<<<<< HEAD
 	@echo "... calc-hex-hcurl-cplx"
 	@echo "... calc-hex-hcurl-imped"
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	@echo "... hnnd-hex-h1-dirichlet"
 	@echo "... hnnd-hex-h1-newton"
 	@echo "... hnnd-hex-hcurl"
 	@echo "... judy-templates"
 	@echo "... solver"
+<<<<<<< HEAD
 	@echo "... solver-cplx"
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	@echo "... mesh-copy"
 	@echo "... mesh-refinements"
 	@echo "... regularize"
@@ -820,11 +860,18 @@ help:
 	@echo "... quadrature"
 	@echo "... timer"
 	@echo "... elastostatics"
+<<<<<<< HEAD
 	@echo "... heat-conduction"
 	@echo "... singpert-aniso"
 	@echo "... fichera"
 	@echo "... layer"
 	@echo "... bessel"
+=======
+	@echo "... fichera"
+	@echo "... heat-conduction"
+	@echo "... singpert-aniso"
+	@echo "... layer"
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 .PHONY : help
 
 

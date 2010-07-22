@@ -48,8 +48,11 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/home/sri/hermes3d/tests/calc/hex-h1-sys-dirichlet/cmake_install.cmake")
   INCLUDE("/home/sri/hermes3d/tests/calc/hex-h1-sys-coupled/cmake_install.cmake")
   INCLUDE("/home/sri/hermes3d/tests/calc/hex-hcurl/cmake_install.cmake")
+<<<<<<< HEAD
   INCLUDE("/home/sri/hermes3d/tests/calc/hex-hcurl-cplx/cmake_install.cmake")
   INCLUDE("/home/sri/hermes3d/tests/calc/hex-hcurl-imped/cmake_install.cmake")
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

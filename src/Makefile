@@ -167,6 +167,7 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+<<<<<<< HEAD
 src/CMakeFiles/hermes3d-cplx-debug.dir/rule:
 	cd /home/sri/hermes3d && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/hermes3d-cplx-debug.dir/rule
 .PHONY : src/CMakeFiles/hermes3d-cplx-debug.dir/rule
@@ -181,6 +182,8 @@ hermes3d-cplx-debug/fast:
 .PHONY : hermes3d-cplx-debug/fast
 
 # Convenience name for target.
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 src/CMakeFiles/hermes3d-debug.dir/rule:
 	cd /home/sri/hermes3d && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/hermes3d-debug.dir/rule
 .PHONY : src/CMakeFiles/hermes3d-debug.dir/rule
@@ -199,7 +202,10 @@ __/common/callstack.o: __/common/callstack.cpp.o
 
 # target to build an object file
 __/common/callstack.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/__/common/callstack.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/__/common/callstack.cpp.o
 .PHONY : __/common/callstack.cpp.o
 
@@ -208,7 +214,10 @@ __/common/callstack.i: __/common/callstack.cpp.i
 
 # target to preprocess a source file
 __/common/callstack.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/__/common/callstack.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/__/common/callstack.cpp.i
 .PHONY : __/common/callstack.cpp.i
 
@@ -217,7 +226,10 @@ __/common/callstack.s: __/common/callstack.cpp.s
 
 # target to generate assembly for a file
 __/common/callstack.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/__/common/callstack.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/__/common/callstack.cpp.s
 .PHONY : __/common/callstack.cpp.s
 
@@ -226,7 +238,10 @@ __/common/error.o: __/common/error.cpp.o
 
 # target to build an object file
 __/common/error.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/__/common/error.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/__/common/error.cpp.o
 .PHONY : __/common/error.cpp.o
 
@@ -235,7 +250,10 @@ __/common/error.i: __/common/error.cpp.i
 
 # target to preprocess a source file
 __/common/error.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/__/common/error.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/__/common/error.cpp.i
 .PHONY : __/common/error.cpp.i
 
@@ -244,7 +262,10 @@ __/common/error.s: __/common/error.cpp.s
 
 # target to generate assembly for a file
 __/common/error.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/__/common/error.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/__/common/error.cpp.s
 .PHONY : __/common/error.cpp.s
 
@@ -253,7 +274,10 @@ __/common/timer.o: __/common/timer.cpp.o
 
 # target to build an object file
 __/common/timer.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/__/common/timer.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/__/common/timer.cpp.o
 .PHONY : __/common/timer.cpp.o
 
@@ -262,7 +286,10 @@ __/common/timer.i: __/common/timer.cpp.i
 
 # target to preprocess a source file
 __/common/timer.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/__/common/timer.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/__/common/timer.cpp.i
 .PHONY : __/common/timer.cpp.i
 
@@ -271,7 +298,10 @@ __/common/timer.s: __/common/timer.cpp.s
 
 # target to generate assembly for a file
 __/common/timer.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/__/common/timer.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/__/common/timer.cpp.s
 .PHONY : __/common/timer.cpp.s
 
@@ -280,7 +310,10 @@ __/common/trace.o: __/common/trace.cpp.o
 
 # target to build an object file
 __/common/trace.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/__/common/trace.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/__/common/trace.cpp.o
 .PHONY : __/common/trace.cpp.o
 
@@ -289,7 +322,10 @@ __/common/trace.i: __/common/trace.cpp.i
 
 # target to preprocess a source file
 __/common/trace.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/__/common/trace.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/__/common/trace.cpp.i
 .PHONY : __/common/trace.cpp.i
 
@@ -298,7 +334,10 @@ __/common/trace.s: __/common/trace.cpp.s
 
 # target to generate assembly for a file
 __/common/trace.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/__/common/trace.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/__/common/trace.cpp.s
 .PHONY : __/common/trace.cpp.s
 
@@ -307,7 +346,10 @@ __/common/utils.o: __/common/utils.cpp.o
 
 # target to build an object file
 __/common/utils.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/__/common/utils.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/__/common/utils.cpp.o
 .PHONY : __/common/utils.cpp.o
 
@@ -316,7 +358,10 @@ __/common/utils.i: __/common/utils.cpp.i
 
 # target to preprocess a source file
 __/common/utils.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/__/common/utils.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/__/common/utils.cpp.i
 .PHONY : __/common/utils.cpp.i
 
@@ -325,7 +370,10 @@ __/common/utils.s: __/common/utils.cpp.s
 
 # target to generate assembly for a file
 __/common/utils.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/__/common/utils.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/__/common/utils.cpp.s
 .PHONY : __/common/utils.cpp.s
 
@@ -334,7 +382,10 @@ adapt/h1.o: adapt/h1.cpp.o
 
 # target to build an object file
 adapt/h1.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/adapt/h1.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/adapt/h1.cpp.o
 .PHONY : adapt/h1.cpp.o
 
@@ -343,7 +394,10 @@ adapt/h1.i: adapt/h1.cpp.i
 
 # target to preprocess a source file
 adapt/h1.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/adapt/h1.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/adapt/h1.cpp.i
 .PHONY : adapt/h1.cpp.i
 
@@ -352,7 +406,10 @@ adapt/h1.s: adapt/h1.cpp.s
 
 # target to generate assembly for a file
 adapt/h1.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/adapt/h1.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/adapt/h1.cpp.s
 .PHONY : adapt/h1.cpp.s
 
@@ -361,7 +418,10 @@ adapt/h1proj.o: adapt/h1proj.cpp.o
 
 # target to build an object file
 adapt/h1proj.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/adapt/h1proj.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/adapt/h1proj.cpp.o
 .PHONY : adapt/h1proj.cpp.o
 
@@ -370,7 +430,10 @@ adapt/h1proj.i: adapt/h1proj.cpp.i
 
 # target to preprocess a source file
 adapt/h1proj.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/adapt/h1proj.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/adapt/h1proj.cpp.i
 .PHONY : adapt/h1proj.cpp.i
 
@@ -379,7 +442,10 @@ adapt/h1proj.s: adapt/h1proj.cpp.s
 
 # target to generate assembly for a file
 adapt/h1proj.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/adapt/h1proj.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/adapt/h1proj.cpp.s
 .PHONY : adapt/h1proj.cpp.s
 
@@ -388,7 +454,10 @@ adapt/h1projipol.o: adapt/h1projipol.cpp.o
 
 # target to build an object file
 adapt/h1projipol.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/adapt/h1projipol.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/adapt/h1projipol.cpp.o
 .PHONY : adapt/h1projipol.cpp.o
 
@@ -397,7 +466,10 @@ adapt/h1projipol.i: adapt/h1projipol.cpp.i
 
 # target to preprocess a source file
 adapt/h1projipol.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/adapt/h1projipol.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/adapt/h1projipol.cpp.i
 .PHONY : adapt/h1projipol.cpp.i
 
@@ -406,7 +478,10 @@ adapt/h1projipol.s: adapt/h1projipol.cpp.s
 
 # target to generate assembly for a file
 adapt/h1projipol.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/adapt/h1projipol.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/adapt/h1projipol.cpp.s
 .PHONY : adapt/h1projipol.cpp.s
 
@@ -415,7 +490,10 @@ adapt/proj.o: adapt/proj.cpp.o
 
 # target to build an object file
 adapt/proj.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/adapt/proj.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/adapt/proj.cpp.o
 .PHONY : adapt/proj.cpp.o
 
@@ -424,7 +502,10 @@ adapt/proj.i: adapt/proj.cpp.i
 
 # target to preprocess a source file
 adapt/proj.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/adapt/proj.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/adapt/proj.cpp.i
 .PHONY : adapt/proj.cpp.i
 
@@ -433,7 +514,10 @@ adapt/proj.s: adapt/proj.cpp.s
 
 # target to generate assembly for a file
 adapt/proj.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/adapt/proj.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/adapt/proj.cpp.s
 .PHONY : adapt/proj.cpp.s
 
@@ -442,7 +526,10 @@ adapt/projipol.o: adapt/projipol.cpp.o
 
 # target to build an object file
 adapt/projipol.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/adapt/projipol.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/adapt/projipol.cpp.o
 .PHONY : adapt/projipol.cpp.o
 
@@ -451,7 +538,10 @@ adapt/projipol.i: adapt/projipol.cpp.i
 
 # target to preprocess a source file
 adapt/projipol.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/adapt/projipol.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/adapt/projipol.cpp.i
 .PHONY : adapt/projipol.cpp.i
 
@@ -460,7 +550,10 @@ adapt/projipol.s: adapt/projipol.cpp.s
 
 # target to generate assembly for a file
 adapt/projipol.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/adapt/projipol.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/adapt/projipol.cpp.s
 .PHONY : adapt/projipol.cpp.s
 
@@ -469,7 +562,10 @@ feproblem.o: feproblem.cpp.o
 
 # target to build an object file
 feproblem.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/feproblem.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/feproblem.cpp.o
 .PHONY : feproblem.cpp.o
 
@@ -478,7 +574,10 @@ feproblem.i: feproblem.cpp.i
 
 # target to preprocess a source file
 feproblem.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/feproblem.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/feproblem.cpp.i
 .PHONY : feproblem.cpp.i
 
@@ -487,7 +586,10 @@ feproblem.s: feproblem.cpp.s
 
 # target to generate assembly for a file
 feproblem.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/feproblem.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/feproblem.cpp.s
 .PHONY : feproblem.cpp.s
 
@@ -496,7 +598,10 @@ filter.o: filter.cpp.o
 
 # target to build an object file
 filter.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/filter.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/filter.cpp.o
 .PHONY : filter.cpp.o
 
@@ -505,7 +610,10 @@ filter.i: filter.cpp.i
 
 # target to preprocess a source file
 filter.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/filter.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/filter.cpp.i
 .PHONY : filter.cpp.i
 
@@ -514,7 +622,10 @@ filter.s: filter.cpp.s
 
 # target to generate assembly for a file
 filter.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/filter.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/filter.cpp.s
 .PHONY : filter.cpp.s
 
@@ -523,7 +634,10 @@ forms.o: forms.cpp.o
 
 # target to build an object file
 forms.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/forms.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/forms.cpp.o
 .PHONY : forms.cpp.o
 
@@ -532,7 +646,10 @@ forms.i: forms.cpp.i
 
 # target to preprocess a source file
 forms.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/forms.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/forms.cpp.i
 .PHONY : forms.cpp.i
 
@@ -541,7 +658,10 @@ forms.s: forms.cpp.s
 
 # target to generate assembly for a file
 forms.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/forms.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/forms.cpp.s
 .PHONY : forms.cpp.s
 
@@ -550,7 +670,10 @@ function.o: function.cpp.o
 
 # target to build an object file
 function.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/function.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/function.cpp.o
 .PHONY : function.cpp.o
 
@@ -559,7 +682,10 @@ function.i: function.cpp.i
 
 # target to preprocess a source file
 function.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/function.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/function.cpp.i
 .PHONY : function.cpp.i
 
@@ -568,7 +694,10 @@ function.s: function.cpp.s
 
 # target to generate assembly for a file
 function.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/function.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/function.cpp.s
 .PHONY : function.cpp.s
 
@@ -577,7 +706,10 @@ hermes3d.o: hermes3d.cpp.o
 
 # target to build an object file
 hermes3d.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/hermes3d.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/hermes3d.cpp.o
 .PHONY : hermes3d.cpp.o
 
@@ -586,7 +718,10 @@ hermes3d.i: hermes3d.cpp.i
 
 # target to preprocess a source file
 hermes3d.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/hermes3d.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/hermes3d.cpp.i
 .PHONY : hermes3d.cpp.i
 
@@ -595,7 +730,10 @@ hermes3d.s: hermes3d.cpp.s
 
 # target to generate assembly for a file
 hermes3d.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/hermes3d.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/hermes3d.cpp.s
 .PHONY : hermes3d.cpp.s
 
@@ -604,7 +742,10 @@ linproblem.o: linproblem.cpp.o
 
 # target to build an object file
 linproblem.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/linproblem.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/linproblem.cpp.o
 .PHONY : linproblem.cpp.o
 
@@ -613,7 +754,10 @@ linproblem.i: linproblem.cpp.i
 
 # target to preprocess a source file
 linproblem.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/linproblem.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/linproblem.cpp.i
 .PHONY : linproblem.cpp.i
 
@@ -622,7 +766,10 @@ linproblem.s: linproblem.cpp.s
 
 # target to generate assembly for a file
 linproblem.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/linproblem.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/linproblem.cpp.s
 .PHONY : linproblem.cpp.s
 
@@ -631,7 +778,10 @@ loader/exodusii.o: loader/exodusii.cpp.o
 
 # target to build an object file
 loader/exodusii.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/loader/exodusii.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/loader/exodusii.cpp.o
 .PHONY : loader/exodusii.cpp.o
 
@@ -640,7 +790,10 @@ loader/exodusii.i: loader/exodusii.cpp.i
 
 # target to preprocess a source file
 loader/exodusii.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/loader/exodusii.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/loader/exodusii.cpp.i
 .PHONY : loader/exodusii.cpp.i
 
@@ -649,7 +802,10 @@ loader/exodusii.s: loader/exodusii.cpp.s
 
 # target to generate assembly for a file
 loader/exodusii.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/loader/exodusii.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/loader/exodusii.cpp.s
 .PHONY : loader/exodusii.cpp.s
 
@@ -658,7 +814,10 @@ loader/hdf5.o: loader/hdf5.cpp.o
 
 # target to build an object file
 loader/hdf5.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/loader/hdf5.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/loader/hdf5.cpp.o
 .PHONY : loader/hdf5.cpp.o
 
@@ -667,7 +826,10 @@ loader/hdf5.i: loader/hdf5.cpp.i
 
 # target to preprocess a source file
 loader/hdf5.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/loader/hdf5.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/loader/hdf5.cpp.i
 .PHONY : loader/hdf5.cpp.i
 
@@ -676,7 +838,10 @@ loader/hdf5.s: loader/hdf5.cpp.s
 
 # target to generate assembly for a file
 loader/hdf5.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/loader/hdf5.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/loader/hdf5.cpp.s
 .PHONY : loader/hdf5.cpp.s
 
@@ -685,7 +850,10 @@ loader/mesh3d.o: loader/mesh3d.cpp.o
 
 # target to build an object file
 loader/mesh3d.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/loader/mesh3d.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/loader/mesh3d.cpp.o
 .PHONY : loader/mesh3d.cpp.o
 
@@ -694,7 +862,10 @@ loader/mesh3d.i: loader/mesh3d.cpp.i
 
 # target to preprocess a source file
 loader/mesh3d.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/loader/mesh3d.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/loader/mesh3d.cpp.i
 .PHONY : loader/mesh3d.cpp.i
 
@@ -703,7 +874,10 @@ loader/mesh3d.s: loader/mesh3d.cpp.s
 
 # target to generate assembly for a file
 loader/mesh3d.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/loader/mesh3d.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/loader/mesh3d.cpp.s
 .PHONY : loader/mesh3d.cpp.s
 
@@ -712,7 +886,10 @@ matrix.o: matrix.cpp.o
 
 # target to build an object file
 matrix.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/matrix.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/matrix.cpp.o
 .PHONY : matrix.cpp.o
 
@@ -721,7 +898,10 @@ matrix.i: matrix.cpp.i
 
 # target to preprocess a source file
 matrix.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/matrix.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/matrix.cpp.i
 .PHONY : matrix.cpp.i
 
@@ -730,7 +910,10 @@ matrix.s: matrix.cpp.s
 
 # target to generate assembly for a file
 matrix.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/matrix.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/matrix.cpp.s
 .PHONY : matrix.cpp.s
 
@@ -739,7 +922,10 @@ mesh.o: mesh.cpp.o
 
 # target to build an object file
 mesh.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/mesh.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/mesh.cpp.o
 .PHONY : mesh.cpp.o
 
@@ -748,7 +934,10 @@ mesh.i: mesh.cpp.i
 
 # target to preprocess a source file
 mesh.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/mesh.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/mesh.cpp.i
 .PHONY : mesh.cpp.i
 
@@ -757,7 +946,10 @@ mesh.s: mesh.cpp.s
 
 # target to generate assembly for a file
 mesh.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/mesh.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/mesh.cpp.s
 .PHONY : mesh.cpp.s
 
@@ -766,7 +958,10 @@ norm.o: norm.cpp.o
 
 # target to build an object file
 norm.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/norm.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/norm.cpp.o
 .PHONY : norm.cpp.o
 
@@ -775,7 +970,10 @@ norm.i: norm.cpp.i
 
 # target to preprocess a source file
 norm.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/norm.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/norm.cpp.i
 .PHONY : norm.cpp.i
 
@@ -784,7 +982,10 @@ norm.s: norm.cpp.s
 
 # target to generate assembly for a file
 norm.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/norm.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/norm.cpp.s
 .PHONY : norm.cpp.s
 
@@ -793,7 +994,10 @@ output/gmsh.o: output/gmsh.cpp.o
 
 # target to build an object file
 output/gmsh.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/output/gmsh.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/output/gmsh.cpp.o
 .PHONY : output/gmsh.cpp.o
 
@@ -802,7 +1006,10 @@ output/gmsh.i: output/gmsh.cpp.i
 
 # target to preprocess a source file
 output/gmsh.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/output/gmsh.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/output/gmsh.cpp.i
 .PHONY : output/gmsh.cpp.i
 
@@ -811,7 +1018,10 @@ output/gmsh.s: output/gmsh.cpp.s
 
 # target to generate assembly for a file
 output/gmsh.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/output/gmsh.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/output/gmsh.cpp.s
 .PHONY : output/gmsh.cpp.s
 
@@ -820,7 +1030,10 @@ output/graph.o: output/graph.cpp.o
 
 # target to build an object file
 output/graph.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/output/graph.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/output/graph.cpp.o
 .PHONY : output/graph.cpp.o
 
@@ -829,7 +1042,10 @@ output/graph.i: output/graph.cpp.i
 
 # target to preprocess a source file
 output/graph.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/output/graph.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/output/graph.cpp.i
 .PHONY : output/graph.cpp.i
 
@@ -838,7 +1054,10 @@ output/graph.s: output/graph.cpp.s
 
 # target to generate assembly for a file
 output/graph.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/output/graph.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/output/graph.cpp.s
 .PHONY : output/graph.cpp.s
 
@@ -847,7 +1066,10 @@ output/vtk.o: output/vtk.cpp.o
 
 # target to build an object file
 output/vtk.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/output/vtk.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/output/vtk.cpp.o
 .PHONY : output/vtk.cpp.o
 
@@ -856,7 +1078,10 @@ output/vtk.i: output/vtk.cpp.i
 
 # target to preprocess a source file
 output/vtk.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/output/vtk.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/output/vtk.cpp.i
 .PHONY : output/vtk.cpp.i
 
@@ -865,7 +1090,10 @@ output/vtk.s: output/vtk.cpp.s
 
 # target to generate assembly for a file
 output/vtk.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/output/vtk.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/output/vtk.cpp.s
 .PHONY : output/vtk.cpp.s
 
@@ -874,7 +1102,10 @@ precond/ifpack.o: precond/ifpack.cpp.o
 
 # target to build an object file
 precond/ifpack.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/precond/ifpack.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/precond/ifpack.cpp.o
 .PHONY : precond/ifpack.cpp.o
 
@@ -883,7 +1114,10 @@ precond/ifpack.i: precond/ifpack.cpp.i
 
 # target to preprocess a source file
 precond/ifpack.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/precond/ifpack.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/precond/ifpack.cpp.i
 .PHONY : precond/ifpack.cpp.i
 
@@ -892,7 +1126,10 @@ precond/ifpack.s: precond/ifpack.cpp.s
 
 # target to generate assembly for a file
 precond/ifpack.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/precond/ifpack.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/precond/ifpack.cpp.s
 .PHONY : precond/ifpack.cpp.s
 
@@ -901,7 +1138,10 @@ precond/ml.o: precond/ml.cpp.o
 
 # target to build an object file
 precond/ml.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/precond/ml.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/precond/ml.cpp.o
 .PHONY : precond/ml.cpp.o
 
@@ -910,7 +1150,10 @@ precond/ml.i: precond/ml.cpp.i
 
 # target to preprocess a source file
 precond/ml.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/precond/ml.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/precond/ml.cpp.i
 .PHONY : precond/ml.cpp.i
 
@@ -919,7 +1162,10 @@ precond/ml.s: precond/ml.cpp.s
 
 # target to generate assembly for a file
 precond/ml.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/precond/ml.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/precond/ml.cpp.s
 .PHONY : precond/ml.cpp.s
 
@@ -928,7 +1174,10 @@ qsort.o: qsort.cpp.o
 
 # target to build an object file
 qsort.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/qsort.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/qsort.cpp.o
 .PHONY : qsort.cpp.o
 
@@ -937,7 +1186,10 @@ qsort.i: qsort.cpp.i
 
 # target to preprocess a source file
 qsort.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/qsort.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/qsort.cpp.i
 .PHONY : qsort.cpp.i
 
@@ -946,7 +1198,10 @@ qsort.s: qsort.cpp.s
 
 # target to generate assembly for a file
 qsort.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/qsort.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/qsort.cpp.s
 .PHONY : qsort.cpp.s
 
@@ -955,7 +1210,10 @@ quadcheb.o: quadcheb.cpp.o
 
 # target to build an object file
 quadcheb.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/quadcheb.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/quadcheb.cpp.o
 .PHONY : quadcheb.cpp.o
 
@@ -964,7 +1222,10 @@ quadcheb.i: quadcheb.cpp.i
 
 # target to preprocess a source file
 quadcheb.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/quadcheb.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/quadcheb.cpp.i
 .PHONY : quadcheb.cpp.i
 
@@ -973,7 +1234,10 @@ quadcheb.s: quadcheb.cpp.s
 
 # target to generate assembly for a file
 quadcheb.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/quadcheb.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/quadcheb.cpp.s
 .PHONY : quadcheb.cpp.s
 
@@ -982,7 +1246,10 @@ quadstd.o: quadstd.cpp.o
 
 # target to build an object file
 quadstd.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/quadstd.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/quadstd.cpp.o
 .PHONY : quadstd.cpp.o
 
@@ -991,7 +1258,10 @@ quadstd.i: quadstd.cpp.i
 
 # target to preprocess a source file
 quadstd.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/quadstd.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/quadstd.cpp.i
 .PHONY : quadstd.cpp.i
 
@@ -1000,7 +1270,10 @@ quadstd.s: quadstd.cpp.s
 
 # target to generate assembly for a file
 quadstd.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/quadstd.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/quadstd.cpp.s
 .PHONY : quadstd.cpp.s
 
@@ -1009,7 +1282,10 @@ refdomain.o: refdomain.cpp.o
 
 # target to build an object file
 refdomain.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/refdomain.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/refdomain.cpp.o
 .PHONY : refdomain.cpp.o
 
@@ -1018,7 +1294,10 @@ refdomain.i: refdomain.cpp.i
 
 # target to preprocess a source file
 refdomain.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/refdomain.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/refdomain.cpp.i
 .PHONY : refdomain.cpp.i
 
@@ -1027,7 +1306,10 @@ refdomain.s: refdomain.cpp.s
 
 # target to generate assembly for a file
 refdomain.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/refdomain.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/refdomain.cpp.s
 .PHONY : refdomain.cpp.s
 
@@ -1036,7 +1318,10 @@ refmap.o: refmap.cpp.o
 
 # target to build an object file
 refmap.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/refmap.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/refmap.cpp.o
 .PHONY : refmap.cpp.o
 
@@ -1045,7 +1330,10 @@ refmap.i: refmap.cpp.i
 
 # target to preprocess a source file
 refmap.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/refmap.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/refmap.cpp.i
 .PHONY : refmap.cpp.i
 
@@ -1054,7 +1342,10 @@ refmap.s: refmap.cpp.s
 
 # target to generate assembly for a file
 refmap.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/refmap.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/refmap.cpp.s
 .PHONY : refmap.cpp.s
 
@@ -1063,7 +1354,10 @@ shapefn.o: shapefn.cpp.o
 
 # target to build an object file
 shapefn.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapefn.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapefn.cpp.o
 .PHONY : shapefn.cpp.o
 
@@ -1072,7 +1366,10 @@ shapefn.i: shapefn.cpp.i
 
 # target to preprocess a source file
 shapefn.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapefn.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapefn.cpp.i
 .PHONY : shapefn.cpp.i
 
@@ -1081,7 +1378,10 @@ shapefn.s: shapefn.cpp.s
 
 # target to generate assembly for a file
 shapefn.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapefn.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapefn.cpp.s
 .PHONY : shapefn.cpp.s
 
@@ -1090,7 +1390,10 @@ shapeset.o: shapeset.cpp.o
 
 # target to build an object file
 shapeset.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset.cpp.o
 .PHONY : shapeset.cpp.o
 
@@ -1099,7 +1402,10 @@ shapeset.i: shapeset.cpp.i
 
 # target to preprocess a source file
 shapeset.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset.cpp.i
 .PHONY : shapeset.cpp.i
 
@@ -1108,7 +1414,10 @@ shapeset.s: shapeset.cpp.s
 
 # target to generate assembly for a file
 shapeset.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset.cpp.s
 .PHONY : shapeset.cpp.s
 
@@ -1117,7 +1426,10 @@ shapeset/h1lobattohex.o: shapeset/h1lobattohex.cpp.o
 
 # target to build an object file
 shapeset/h1lobattohex.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/h1lobattohex.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/h1lobattohex.cpp.o
 .PHONY : shapeset/h1lobattohex.cpp.o
 
@@ -1126,7 +1438,10 @@ shapeset/h1lobattohex.i: shapeset/h1lobattohex.cpp.i
 
 # target to preprocess a source file
 shapeset/h1lobattohex.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/h1lobattohex.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/h1lobattohex.cpp.i
 .PHONY : shapeset/h1lobattohex.cpp.i
 
@@ -1135,7 +1450,10 @@ shapeset/h1lobattohex.s: shapeset/h1lobattohex.cpp.s
 
 # target to generate assembly for a file
 shapeset/h1lobattohex.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/h1lobattohex.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/h1lobattohex.cpp.s
 .PHONY : shapeset/h1lobattohex.cpp.s
 
@@ -1144,7 +1462,10 @@ shapeset/h1lobattotetra.o: shapeset/h1lobattotetra.cpp.o
 
 # target to build an object file
 shapeset/h1lobattotetra.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/h1lobattotetra.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/h1lobattotetra.cpp.o
 .PHONY : shapeset/h1lobattotetra.cpp.o
 
@@ -1153,7 +1474,10 @@ shapeset/h1lobattotetra.i: shapeset/h1lobattotetra.cpp.i
 
 # target to preprocess a source file
 shapeset/h1lobattotetra.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/h1lobattotetra.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/h1lobattotetra.cpp.i
 .PHONY : shapeset/h1lobattotetra.cpp.i
 
@@ -1162,7 +1486,10 @@ shapeset/h1lobattotetra.s: shapeset/h1lobattotetra.cpp.s
 
 # target to generate assembly for a file
 shapeset/h1lobattotetra.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/h1lobattotetra.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/h1lobattotetra.cpp.s
 .PHONY : shapeset/h1lobattotetra.cpp.s
 
@@ -1171,7 +1498,10 @@ shapeset/h1lobattotetradx.o: shapeset/h1lobattotetradx.cpp.o
 
 # target to build an object file
 shapeset/h1lobattotetradx.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/h1lobattotetradx.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/h1lobattotetradx.cpp.o
 .PHONY : shapeset/h1lobattotetradx.cpp.o
 
@@ -1180,7 +1510,10 @@ shapeset/h1lobattotetradx.i: shapeset/h1lobattotetradx.cpp.i
 
 # target to preprocess a source file
 shapeset/h1lobattotetradx.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/h1lobattotetradx.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/h1lobattotetradx.cpp.i
 .PHONY : shapeset/h1lobattotetradx.cpp.i
 
@@ -1189,7 +1522,10 @@ shapeset/h1lobattotetradx.s: shapeset/h1lobattotetradx.cpp.s
 
 # target to generate assembly for a file
 shapeset/h1lobattotetradx.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/h1lobattotetradx.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/h1lobattotetradx.cpp.s
 .PHONY : shapeset/h1lobattotetradx.cpp.s
 
@@ -1198,7 +1534,10 @@ shapeset/h1lobattotetrady.o: shapeset/h1lobattotetrady.cpp.o
 
 # target to build an object file
 shapeset/h1lobattotetrady.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/h1lobattotetrady.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/h1lobattotetrady.cpp.o
 .PHONY : shapeset/h1lobattotetrady.cpp.o
 
@@ -1207,7 +1546,10 @@ shapeset/h1lobattotetrady.i: shapeset/h1lobattotetrady.cpp.i
 
 # target to preprocess a source file
 shapeset/h1lobattotetrady.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/h1lobattotetrady.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/h1lobattotetrady.cpp.i
 .PHONY : shapeset/h1lobattotetrady.cpp.i
 
@@ -1216,7 +1558,10 @@ shapeset/h1lobattotetrady.s: shapeset/h1lobattotetrady.cpp.s
 
 # target to generate assembly for a file
 shapeset/h1lobattotetrady.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/h1lobattotetrady.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/h1lobattotetrady.cpp.s
 .PHONY : shapeset/h1lobattotetrady.cpp.s
 
@@ -1225,7 +1570,10 @@ shapeset/h1lobattotetradz.o: shapeset/h1lobattotetradz.cpp.o
 
 # target to build an object file
 shapeset/h1lobattotetradz.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/h1lobattotetradz.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/h1lobattotetradz.cpp.o
 .PHONY : shapeset/h1lobattotetradz.cpp.o
 
@@ -1234,7 +1582,10 @@ shapeset/h1lobattotetradz.i: shapeset/h1lobattotetradz.cpp.i
 
 # target to preprocess a source file
 shapeset/h1lobattotetradz.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/h1lobattotetradz.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/h1lobattotetradz.cpp.i
 .PHONY : shapeset/h1lobattotetradz.cpp.i
 
@@ -1243,7 +1594,10 @@ shapeset/h1lobattotetradz.s: shapeset/h1lobattotetradz.cpp.s
 
 # target to generate assembly for a file
 shapeset/h1lobattotetradz.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/h1lobattotetradz.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/h1lobattotetradz.cpp.s
 .PHONY : shapeset/h1lobattotetradz.cpp.s
 
@@ -1252,7 +1606,10 @@ shapeset/hcurllobattohex.o: shapeset/hcurllobattohex.cpp.o
 
 # target to build an object file
 shapeset/hcurllobattohex.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/hcurllobattohex.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/hcurllobattohex.cpp.o
 .PHONY : shapeset/hcurllobattohex.cpp.o
 
@@ -1261,7 +1618,10 @@ shapeset/hcurllobattohex.i: shapeset/hcurllobattohex.cpp.i
 
 # target to preprocess a source file
 shapeset/hcurllobattohex.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/hcurllobattohex.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/hcurllobattohex.cpp.i
 .PHONY : shapeset/hcurllobattohex.cpp.i
 
@@ -1270,7 +1630,10 @@ shapeset/hcurllobattohex.s: shapeset/hcurllobattohex.cpp.s
 
 # target to generate assembly for a file
 shapeset/hcurllobattohex.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/hcurllobattohex.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/hcurllobattohex.cpp.s
 .PHONY : shapeset/hcurllobattohex.cpp.s
 
@@ -1279,7 +1642,10 @@ shapeset/lobatto.o: shapeset/lobatto.cpp.o
 
 # target to build an object file
 shapeset/lobatto.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/lobatto.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/lobatto.cpp.o
 .PHONY : shapeset/lobatto.cpp.o
 
@@ -1288,7 +1654,10 @@ shapeset/lobatto.i: shapeset/lobatto.cpp.i
 
 # target to preprocess a source file
 shapeset/lobatto.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/lobatto.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/lobatto.cpp.i
 .PHONY : shapeset/lobatto.cpp.i
 
@@ -1297,7 +1666,10 @@ shapeset/lobatto.s: shapeset/lobatto.cpp.s
 
 # target to generate assembly for a file
 shapeset/lobatto.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/lobatto.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/lobatto.cpp.s
 .PHONY : shapeset/lobatto.cpp.s
 
@@ -1306,7 +1678,10 @@ shapeset/refmapss.o: shapeset/refmapss.cpp.o
 
 # target to build an object file
 shapeset/refmapss.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/refmapss.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/refmapss.cpp.o
 .PHONY : shapeset/refmapss.cpp.o
 
@@ -1315,7 +1690,10 @@ shapeset/refmapss.i: shapeset/refmapss.cpp.i
 
 # target to preprocess a source file
 shapeset/refmapss.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/refmapss.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/refmapss.cpp.i
 .PHONY : shapeset/refmapss.cpp.i
 
@@ -1324,7 +1702,10 @@ shapeset/refmapss.s: shapeset/refmapss.cpp.s
 
 # target to generate assembly for a file
 shapeset/refmapss.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/shapeset/refmapss.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/shapeset/refmapss.cpp.s
 .PHONY : shapeset/refmapss.cpp.s
 
@@ -1333,7 +1714,10 @@ solution.o: solution.cpp.o
 
 # target to build an object file
 solution.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solution.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solution.cpp.o
 .PHONY : solution.cpp.o
 
@@ -1342,7 +1726,10 @@ solution.i: solution.cpp.i
 
 # target to preprocess a source file
 solution.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solution.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solution.cpp.i
 .PHONY : solution.cpp.i
 
@@ -1351,7 +1738,10 @@ solution.s: solution.cpp.s
 
 # target to generate assembly for a file
 solution.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solution.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solution.cpp.s
 .PHONY : solution.cpp.s
 
@@ -1360,7 +1750,10 @@ solver/amesos.o: solver/amesos.cpp.o
 
 # target to build an object file
 solver/amesos.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/amesos.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/amesos.cpp.o
 .PHONY : solver/amesos.cpp.o
 
@@ -1369,7 +1762,10 @@ solver/amesos.i: solver/amesos.cpp.i
 
 # target to preprocess a source file
 solver/amesos.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/amesos.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/amesos.cpp.i
 .PHONY : solver/amesos.cpp.i
 
@@ -1378,7 +1774,10 @@ solver/amesos.s: solver/amesos.cpp.s
 
 # target to generate assembly for a file
 solver/amesos.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/amesos.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/amesos.cpp.s
 .PHONY : solver/amesos.cpp.s
 
@@ -1387,7 +1786,10 @@ solver/aztecoo.o: solver/aztecoo.cpp.o
 
 # target to build an object file
 solver/aztecoo.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/aztecoo.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/aztecoo.cpp.o
 .PHONY : solver/aztecoo.cpp.o
 
@@ -1396,7 +1798,10 @@ solver/aztecoo.i: solver/aztecoo.cpp.i
 
 # target to preprocess a source file
 solver/aztecoo.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/aztecoo.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/aztecoo.cpp.i
 .PHONY : solver/aztecoo.cpp.i
 
@@ -1405,7 +1810,10 @@ solver/aztecoo.s: solver/aztecoo.cpp.s
 
 # target to generate assembly for a file
 solver/aztecoo.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/aztecoo.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/aztecoo.cpp.s
 .PHONY : solver/aztecoo.cpp.s
 
@@ -1414,7 +1822,10 @@ solver/epetra.o: solver/epetra.cpp.o
 
 # target to build an object file
 solver/epetra.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/epetra.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/epetra.cpp.o
 .PHONY : solver/epetra.cpp.o
 
@@ -1423,7 +1834,10 @@ solver/epetra.i: solver/epetra.cpp.i
 
 # target to preprocess a source file
 solver/epetra.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/epetra.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/epetra.cpp.i
 .PHONY : solver/epetra.cpp.i
 
@@ -1432,7 +1846,10 @@ solver/epetra.s: solver/epetra.cpp.s
 
 # target to generate assembly for a file
 solver/epetra.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/epetra.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/epetra.cpp.s
 .PHONY : solver/epetra.cpp.s
 
@@ -1441,7 +1858,10 @@ solver/mumps.o: solver/mumps.cpp.o
 
 # target to build an object file
 solver/mumps.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/mumps.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/mumps.cpp.o
 .PHONY : solver/mumps.cpp.o
 
@@ -1450,7 +1870,10 @@ solver/mumps.i: solver/mumps.cpp.i
 
 # target to preprocess a source file
 solver/mumps.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/mumps.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/mumps.cpp.i
 .PHONY : solver/mumps.cpp.i
 
@@ -1459,7 +1882,10 @@ solver/mumps.s: solver/mumps.cpp.s
 
 # target to generate assembly for a file
 solver/mumps.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/mumps.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/mumps.cpp.s
 .PHONY : solver/mumps.cpp.s
 
@@ -1468,7 +1894,10 @@ solver/nox.o: solver/nox.cpp.o
 
 # target to build an object file
 solver/nox.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/nox.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/nox.cpp.o
 .PHONY : solver/nox.cpp.o
 
@@ -1477,7 +1906,10 @@ solver/nox.i: solver/nox.cpp.i
 
 # target to preprocess a source file
 solver/nox.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/nox.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/nox.cpp.i
 .PHONY : solver/nox.cpp.i
 
@@ -1486,7 +1918,10 @@ solver/nox.s: solver/nox.cpp.s
 
 # target to generate assembly for a file
 solver/nox.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/nox.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/nox.cpp.s
 .PHONY : solver/nox.cpp.s
 
@@ -1495,7 +1930,10 @@ solver/pardiso.o: solver/pardiso.cpp.o
 
 # target to build an object file
 solver/pardiso.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/pardiso.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/pardiso.cpp.o
 .PHONY : solver/pardiso.cpp.o
 
@@ -1504,7 +1942,10 @@ solver/pardiso.i: solver/pardiso.cpp.i
 
 # target to preprocess a source file
 solver/pardiso.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/pardiso.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/pardiso.cpp.i
 .PHONY : solver/pardiso.cpp.i
 
@@ -1513,7 +1954,10 @@ solver/pardiso.s: solver/pardiso.cpp.s
 
 # target to generate assembly for a file
 solver/pardiso.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/pardiso.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/pardiso.cpp.s
 .PHONY : solver/pardiso.cpp.s
 
@@ -1522,7 +1966,10 @@ solver/petsc.o: solver/petsc.cpp.o
 
 # target to build an object file
 solver/petsc.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/petsc.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/petsc.cpp.o
 .PHONY : solver/petsc.cpp.o
 
@@ -1531,7 +1978,10 @@ solver/petsc.i: solver/petsc.cpp.i
 
 # target to preprocess a source file
 solver/petsc.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/petsc.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/petsc.cpp.i
 .PHONY : solver/petsc.cpp.i
 
@@ -1540,7 +1990,10 @@ solver/petsc.s: solver/petsc.cpp.s
 
 # target to generate assembly for a file
 solver/petsc.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/petsc.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/petsc.cpp.s
 .PHONY : solver/petsc.cpp.s
 
@@ -1549,7 +2002,10 @@ solver/umfpack.o: solver/umfpack.cpp.o
 
 # target to build an object file
 solver/umfpack.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/umfpack.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/umfpack.cpp.o
 .PHONY : solver/umfpack.cpp.o
 
@@ -1558,7 +2014,10 @@ solver/umfpack.i: solver/umfpack.cpp.i
 
 # target to preprocess a source file
 solver/umfpack.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/umfpack.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/umfpack.cpp.i
 .PHONY : solver/umfpack.cpp.i
 
@@ -1567,7 +2026,10 @@ solver/umfpack.s: solver/umfpack.cpp.s
 
 # target to generate assembly for a file
 solver/umfpack.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/solver/umfpack.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/solver/umfpack.cpp.s
 .PHONY : solver/umfpack.cpp.s
 
@@ -1576,7 +2038,10 @@ space.o: space.cpp.o
 
 # target to build an object file
 space.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/space.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/space.cpp.o
 .PHONY : space.cpp.o
 
@@ -1585,7 +2050,10 @@ space.i: space.cpp.i
 
 # target to preprocess a source file
 space.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/space.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/space.cpp.i
 .PHONY : space.cpp.i
 
@@ -1594,7 +2062,10 @@ space.s: space.cpp.s
 
 # target to generate assembly for a file
 space.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/space.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/space.cpp.s
 .PHONY : space.cpp.s
 
@@ -1603,7 +2074,10 @@ space/h1.o: space/h1.cpp.o
 
 # target to build an object file
 space/h1.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/space/h1.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/space/h1.cpp.o
 .PHONY : space/h1.cpp.o
 
@@ -1612,7 +2086,10 @@ space/h1.i: space/h1.cpp.i
 
 # target to preprocess a source file
 space/h1.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/space/h1.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/space/h1.cpp.i
 .PHONY : space/h1.cpp.i
 
@@ -1621,7 +2098,10 @@ space/h1.s: space/h1.cpp.s
 
 # target to generate assembly for a file
 space/h1.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/space/h1.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/space/h1.cpp.s
 .PHONY : space/h1.cpp.s
 
@@ -1630,7 +2110,10 @@ space/hcurl.o: space/hcurl.cpp.o
 
 # target to build an object file
 space/hcurl.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/space/hcurl.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/space/hcurl.cpp.o
 .PHONY : space/hcurl.cpp.o
 
@@ -1639,7 +2122,10 @@ space/hcurl.i: space/hcurl.cpp.i
 
 # target to preprocess a source file
 space/hcurl.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/space/hcurl.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/space/hcurl.cpp.i
 .PHONY : space/hcurl.cpp.i
 
@@ -1648,7 +2134,10 @@ space/hcurl.s: space/hcurl.cpp.s
 
 # target to generate assembly for a file
 space/hcurl.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/space/hcurl.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/space/hcurl.cpp.s
 .PHONY : space/hcurl.cpp.s
 
@@ -1657,7 +2146,10 @@ transform.o: transform.cpp.o
 
 # target to build an object file
 transform.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/transform.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/transform.cpp.o
 .PHONY : transform.cpp.o
 
@@ -1666,7 +2158,10 @@ transform.i: transform.cpp.i
 
 # target to preprocess a source file
 transform.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/transform.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/transform.cpp.i
 .PHONY : transform.cpp.i
 
@@ -1675,7 +2170,10 @@ transform.s: transform.cpp.s
 
 # target to generate assembly for a file
 transform.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/transform.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/transform.cpp.s
 .PHONY : transform.cpp.s
 
@@ -1684,7 +2182,10 @@ traverse.o: traverse.cpp.o
 
 # target to build an object file
 traverse.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/traverse.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/traverse.cpp.o
 .PHONY : traverse.cpp.o
 
@@ -1693,7 +2194,10 @@ traverse.i: traverse.cpp.i
 
 # target to preprocess a source file
 traverse.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/traverse.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/traverse.cpp.i
 .PHONY : traverse.cpp.i
 
@@ -1702,7 +2206,10 @@ traverse.s: traverse.cpp.s
 
 # target to generate assembly for a file
 traverse.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/traverse.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/traverse.cpp.s
 .PHONY : traverse.cpp.s
 
@@ -1711,7 +2218,10 @@ weakform.o: weakform.cpp.o
 
 # target to build an object file
 weakform.cpp.o:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/weakform.cpp.o
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/weakform.cpp.o
 .PHONY : weakform.cpp.o
 
@@ -1720,7 +2230,10 @@ weakform.i: weakform.cpp.i
 
 # target to preprocess a source file
 weakform.cpp.i:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/weakform.cpp.i
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/weakform.cpp.i
 .PHONY : weakform.cpp.i
 
@@ -1729,7 +2242,10 @@ weakform.s: weakform.cpp.s
 
 # target to generate assembly for a file
 weakform.cpp.s:
+<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/weakform.cpp.s
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	cd /home/sri/hermes3d && $(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/weakform.cpp.s
 .PHONY : weakform.cpp.s
 
@@ -1740,7 +2256,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+<<<<<<< HEAD
 	@echo "... hermes3d-cplx-debug"
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	@echo "... hermes3d-debug"
 	@echo "... install"
 	@echo "... install/local"

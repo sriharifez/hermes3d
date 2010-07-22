@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,_hermes_common.so -o _hermes_common.so CMakeFiles/_hermes_common.dir/_hermes_common.cpp.o CMakeFiles/_hermes_common.dir/stdcython.cpp.o libhermes_common.so /usr/lib/python2.6/config/libpython2.6.so -Wl,-rpath,/home/sri/hermes2d/hermes_common:/usr/lib/python2.6/config 

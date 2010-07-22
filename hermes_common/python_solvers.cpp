@@ -4,6 +4,7 @@
 // Email: hermes1d@googlegroups.com, home page: http://hpfem.org/
 
 #include "matrix.h"
+<<<<<<< HEAD
 #include "solvers.h"
 
 #ifdef COMMON_WITH_SCIPY
@@ -13,6 +14,13 @@ bool CommonSolverNumPy::solve(Matrix *mat, double *res)
 {
   //printf("NumPy solver\n");
 
+=======
+
+#include "python_api.h"
+
+void solve_linear_system_numpy(Matrix *mat, double *res)
+{
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
     CSRMatrix M(mat);
     Python *p = new Python();
     p->push("m", c2py_CSRMatrix(&M));
@@ -27,10 +35,15 @@ bool CommonSolverNumPy::solve(Matrix *mat, double *res)
     delete p;
 }
 
+<<<<<<< HEAD
 bool CommonSolverNumPy::solve(Matrix *mat, cplx *res)
 {
   //printf("NumPy solver - cplx\n");
 
+=======
+void solve_linear_system_numpy(Matrix *mat, cplx *res)
+{
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
     CSRMatrix M(mat);
     Python *p = new Python();
     p->push("m", c2py_CSRMatrix(&M));
@@ -45,10 +58,15 @@ bool CommonSolverNumPy::solve(Matrix *mat, cplx *res)
     delete p;
 }
 
+<<<<<<< HEAD
 bool CommonSolverSciPyUmfpack::solve(Matrix *mat, double *res)
 {
   //printf("SciPy UMFPACK solver\n");
 
+=======
+void solve_linear_system_scipy_umfpack(Matrix *mat, double *res)
+{
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
     CSCMatrix M(mat);
     Python *p = new Python();
     p->push("m", c2py_CSCMatrix(&M));
@@ -67,21 +85,30 @@ bool CommonSolverSciPyUmfpack::solve(Matrix *mat, double *res)
     delete p;
 }
 
+<<<<<<< HEAD
 bool CommonSolverSciPyUmfpack::solve(Matrix *mat, cplx *res)
 {
   //printf("SciPy UMFPACK solver - cplx\n");
 
+=======
+void solve_linear_system_scipy_umfpack(Matrix *mat, cplx *res)
+{
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
     CSCMatrix M(mat);
     Python *p = new Python();
     p->push("m", c2py_CSCMatrix(&M));
     p->push("rhs", c2numpy_double_complex_inplace(res, mat->get_size()));
     p->exec("A = m.to_scipy_csc()");
     p->exec("from scipy.sparse.linalg import spsolve");
+<<<<<<< HEAD
     // Turn off warnings in spsolve (only there)
     p->exec("import warnings");
     p->exec("with warnings.catch_warnings():\n"
             "    warnings.simplefilter('ignore')\n"
             "    x = spsolve(A, rhs)");
+=======
+    p->exec("x = spsolve(A, rhs)");
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
     cplx *x;
     int n;
     numpy2c_double_complex_inplace(p->pull("x"), &x, &n);
@@ -89,10 +116,15 @@ bool CommonSolverSciPyUmfpack::solve(Matrix *mat, cplx *res)
     delete p;
 }
 
+<<<<<<< HEAD
 bool CommonSolverSciPyCG::solve(Matrix *mat, double *res)
 {
   //printf("SciPy CG solver\n");
 
+=======
+void solve_linear_system_scipy_cg(Matrix *mat, double *res)
+{
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
     CSRMatrix M(mat);
     Python *p = new Python();
     p->push("m", c2py_CSRMatrix(&M));
@@ -107,6 +139,7 @@ bool CommonSolverSciPyCG::solve(Matrix *mat, double *res)
     delete p;
 }
 
+<<<<<<< HEAD
 bool CommonSolverSciPyCG::solve(Matrix *mat, cplx *res)
 {
     _error("CommonSolverSciPyCG::solve(Matrix *mat, cplx *res) not implemented.");
@@ -116,6 +149,10 @@ bool CommonSolverSciPyGMRES::solve(Matrix *mat, double *res)
 {
   //printf("SciPy GMRES solver\n");
 
+=======
+void solve_linear_system_scipy_gmres(Matrix *mat, double *res)
+{
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
     CSRMatrix M(mat);
     Python *p = new Python();
     p->push("m", c2py_CSRMatrix(&M));
@@ -129,6 +166,7 @@ bool CommonSolverSciPyGMRES::solve(Matrix *mat, double *res)
     memcpy(res, x, n*sizeof(double));
     delete p;
 }
+<<<<<<< HEAD
 
 bool CommonSolverSciPyGMRES::solve(Matrix *mat, cplx *res)
 {
@@ -179,3 +217,5 @@ bool CommonSolverSciPyGMRES::solve(Matrix *mat, cplx *res)
 
 
 #endif
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad

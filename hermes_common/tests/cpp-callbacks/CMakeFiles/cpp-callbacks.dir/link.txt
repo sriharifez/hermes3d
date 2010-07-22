@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/cpp-callbacks.dir/main.cpp.o CMakeFiles/cpp-callbacks.dir/cpp_api.cpp.o  -o cpp-callbacks -rdynamic ../../libhermes_common.so /usr/lib/python2.6/config/libpython2.6.so -Wl,-rpath,/home/sri/hermes2d/hermes_common:/usr/lib/python2.6/config 

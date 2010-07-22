@@ -3,7 +3,11 @@ close all
 clc
 
 a=0;
+<<<<<<< HEAD
 l=1;
+=======
+l=100;
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 b=a+l;
 
 %Cube Case
@@ -14,6 +18,7 @@ yy=a*0;
 z=b*[1 1 1 1 -1 -1 -1 -1];
 zz=a*0;
 
+<<<<<<< HEAD
 %density of mesh
 d=1;
 x2=[];
@@ -27,6 +32,12 @@ x2=[x2 xi];
 y2=[y2 yi];
 z2=[z2 zi];
 end
+=======
+x2=[x/2 x/4 x/8 x/16];
+y2=[y/2 y/4 y/8 y/16];
+z2=[z/2 z/4 z/8 z/16];
+
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 
 %Concentric Sphere Case
 %read in raw file, amplify.
@@ -67,12 +78,15 @@ fprintf(fid, '%f %f %f\n', X(i),Y(i),Z(i));
 end
 
 
+<<<<<<< HEAD
 %for checking tetras, write Tes, correct it, reload it.
 dlmwrite('Tes.txt',Tes);
 clear Tes
 checkelements
 
 Tes=dlmread('Tes.txt');
+=======
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 fprintf(fid, '\n# tetras\n');
 fprintf(fid, '%i\n', length(Tes));
 for i=1:length(Tes)
@@ -92,19 +106,36 @@ fprintf(fid, '0 \n');
 fprintf(fid, '\n# tris \n');
 %ONLY TRUE FOR CUBE
 fprintf(fid, '%i\n', 12);
+<<<<<<< HEAD
 
 line=dlmread('line.txt');
 for i=1:length(line)
 fprintf(fid, '%i %i %i 1\n', line(i,1), line(i,2), line(i,3));
 end
    
+=======
+%
+for i=1:length(Tes)
+line=Tes(i,:);    
+line=sort(line);
+line(:,4)=[];
+    if line<=length(x)
+    fprintf(fid, '%i %i %i 1\n', line(1), line(2), line(3));
+    end
+end
+
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 
 fprintf(fid, '\n# quads \n');
 fprintf(fid, '0 \n');
 
 fclose(fid);
 
+<<<<<<< HEAD
 quit
+=======
+%quit
+>>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 
 
 
