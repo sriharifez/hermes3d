@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/solver-cplx.dir/main.cpp.o CMakeFiles/solver-cplx.dir/__/__/common/trace.cpp.o  -o solver-cplx -rdynamic -lJudy -lumfpack -lamd -lblas -llapack -lblas ../../src/libhermes3d-cplx-debug.so -lJudy -lumfpack -lamd -lblas -llapack -lblas -llapack -Wl,-rpath,/home/sri/hermes3d/src 

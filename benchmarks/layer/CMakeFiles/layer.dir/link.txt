@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/layer.dir/main.cpp.o CMakeFiles/layer.dir/__/__/common/timer.cpp.o CMakeFiles/layer.dir/__/__/common/error.cpp.o  -o layer -rdynamic ../../src/libhermes3d-debug.so -lJudy -lumfpack -lamd -lblas -llapack -lblas -llapack -Wl,-rpath,/home/sri/hermes3d/src 

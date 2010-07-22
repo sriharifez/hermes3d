@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/adapt-h1-simple.dir/main.cpp.o CMakeFiles/adapt-h1-simple.dir/__/__/__/common/timer.cpp.o CMakeFiles/adapt-h1-simple.dir/__/__/__/common/error.cpp.o  -o adapt-h1-simple -rdynamic -lJudy -lumfpack -lamd -lblas -llapack -lblas ../../../src/libhermes3d-debug.so -lJudy -lumfpack -lamd -lblas -llapack -lblas -llapack -Wl,-rpath,/home/sri/hermes3d/src 

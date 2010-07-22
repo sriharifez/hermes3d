@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/bessel.dir/main.cpp.o CMakeFiles/bessel.dir/bessel.cpp.o CMakeFiles/bessel.dir/__/__/common/timer.cpp.o CMakeFiles/bessel.dir/__/__/common/error.cpp.o  -o bessel -rdynamic ../../src/libhermes3d-cplx-debug.so -lJudy -lumfpack -lamd -lblas -llapack -lblas -llapack -Wl,-rpath,/home/sri/hermes3d/src 

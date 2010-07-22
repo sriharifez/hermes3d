@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/orders.dir/main.cpp.o CMakeFiles/orders.dir/__/__/common/trace.cpp.o  -o orders -rdynamic -lJudy -lumfpack -lamd -lblas -llapack -lblas ../../src/libhermes3d-debug.so -lJudy -lumfpack -lamd -lblas -llapack -lblas -llapack -Wl,-rpath,/home/sri/hermes3d/src 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/projection.dir/main.cpp.o CMakeFiles/projection.dir/__/__/__/common/trace.cpp.o CMakeFiles/projection.dir/__/__/__/common/error.cpp.o  -o projection -rdynamic -lJudy -lumfpack -lamd -lblas -llapack -lblas ../../../src/libhermes3d-debug.so -lJudy -lumfpack -lamd -lblas -llapack -lblas -llapack -Wl,-rpath,/home/sri/hermes3d/src 
