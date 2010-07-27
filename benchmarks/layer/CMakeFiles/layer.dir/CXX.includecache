@@ -29,11 +29,8 @@ forms.cpp
 /home/sri/hermes3d/benchmarks/layer/forms.cpp
 cstdlib
 -
-<<<<<<< HEAD
 cstdlib
 -
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 
 /usr/include/suitesparse/UFconfig.h
 limits.h
@@ -473,7 +470,6 @@ common/trace.h
 
 common/utils.h
 
-<<<<<<< HEAD
 src/adapt/../tuple.h
 
 src/adapt/../weakform.h
@@ -489,9 +485,6 @@ src/adapt/h1.h
 src/adapt/../tuple.h
 ../weakform.h
 src/adapt/../weakform.h
-=======
-src/adapt/h1.h
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 
 src/adapt/h1proj.h
 proj.h
@@ -542,11 +535,8 @@ common/array.h
 -
 weakform.h
 src/weakform.h
-<<<<<<< HEAD
 tuple.h
 src/tuple.h
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 
 src/filter.h
 solution.h
@@ -721,11 +711,8 @@ common/array.h
 -
 weakform.h
 src/weakform.h
-<<<<<<< HEAD
 tuple.h
 src/tuple.h
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 
 src/loader/../meshloader.h
 mesh.h
@@ -992,11 +979,8 @@ common/array.h
 -
 weakform.h
 src/solver/../weakform.h
-<<<<<<< HEAD
 tuple.h
 src/solver/../tuple.h
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 
 src/solver/../h3dconfig.h
 
@@ -1154,19 +1138,13 @@ src/mesh.h
 quad.h
 src/quad.h
 
-<<<<<<< HEAD
 src/tuple.h
 
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 src/weakform.h
 function.h
 src/function.h
 forms.h
 src/forms.h
-<<<<<<< HEAD
 tuple.h
 src/tuple.h
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 

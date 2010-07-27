@@ -34,13 +34,9 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-<<<<<<< HEAD
   INCLUDE("/home/sri/hermes3d/benchmarks/fichera/cmake_install.cmake")
   INCLUDE("/home/sri/hermes3d/benchmarks/layer/cmake_install.cmake")
   INCLUDE("/home/sri/hermes3d/benchmarks/bessel/cmake_install.cmake")
-=======
-  INCLUDE("/home/sri/hermes3d/benchmarks/layer/cmake_install.cmake")
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

@@ -18,8 +18,5 @@ SUBDIRS(hex-h1-sys)
 SUBDIRS(hex-h1-sys-dirichlet)
 SUBDIRS(hex-h1-sys-coupled)
 SUBDIRS(hex-hcurl)
-<<<<<<< HEAD
 SUBDIRS(hex-hcurl-cplx)
 SUBDIRS(hex-hcurl-imped)
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad

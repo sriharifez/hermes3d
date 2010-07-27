@@ -180,7 +180,6 @@ solver/fast:
 	cd /home/sri/hermes3d && $(MAKE) -f tests/linear-solvers/CMakeFiles/solver.dir/build.make tests/linear-solvers/CMakeFiles/solver.dir/build
 .PHONY : solver/fast
 
-<<<<<<< HEAD
 # Convenience name for target.
 tests/linear-solvers/CMakeFiles/solver-cplx.dir/rule:
 	cd /home/sri/hermes3d && $(MAKE) -f CMakeFiles/Makefile2 tests/linear-solvers/CMakeFiles/solver-cplx.dir/rule
@@ -195,18 +194,13 @@ solver-cplx/fast:
 	cd /home/sri/hermes3d && $(MAKE) -f tests/linear-solvers/CMakeFiles/solver-cplx.dir/build.make tests/linear-solvers/CMakeFiles/solver-cplx.dir/build
 .PHONY : solver-cplx/fast
 
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 __/__/common/trace.o: __/__/common/trace.cpp.o
 .PHONY : __/__/common/trace.o
 
 # target to build an object file
 __/__/common/trace.cpp.o:
 	cd /home/sri/hermes3d && $(MAKE) -f tests/linear-solvers/CMakeFiles/solver.dir/build.make tests/linear-solvers/CMakeFiles/solver.dir/__/__/common/trace.cpp.o
-<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f tests/linear-solvers/CMakeFiles/solver-cplx.dir/build.make tests/linear-solvers/CMakeFiles/solver-cplx.dir/__/__/common/trace.cpp.o
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 .PHONY : __/__/common/trace.cpp.o
 
 __/__/common/trace.i: __/__/common/trace.cpp.i
@@ -215,10 +209,7 @@ __/__/common/trace.i: __/__/common/trace.cpp.i
 # target to preprocess a source file
 __/__/common/trace.cpp.i:
 	cd /home/sri/hermes3d && $(MAKE) -f tests/linear-solvers/CMakeFiles/solver.dir/build.make tests/linear-solvers/CMakeFiles/solver.dir/__/__/common/trace.cpp.i
-<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f tests/linear-solvers/CMakeFiles/solver-cplx.dir/build.make tests/linear-solvers/CMakeFiles/solver-cplx.dir/__/__/common/trace.cpp.i
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 .PHONY : __/__/common/trace.cpp.i
 
 __/__/common/trace.s: __/__/common/trace.cpp.s
@@ -227,10 +218,7 @@ __/__/common/trace.s: __/__/common/trace.cpp.s
 # target to generate assembly for a file
 __/__/common/trace.cpp.s:
 	cd /home/sri/hermes3d && $(MAKE) -f tests/linear-solvers/CMakeFiles/solver.dir/build.make tests/linear-solvers/CMakeFiles/solver.dir/__/__/common/trace.cpp.s
-<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f tests/linear-solvers/CMakeFiles/solver-cplx.dir/build.make tests/linear-solvers/CMakeFiles/solver-cplx.dir/__/__/common/trace.cpp.s
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 .PHONY : __/__/common/trace.cpp.s
 
 main.o: main.cpp.o
@@ -239,10 +227,7 @@ main.o: main.cpp.o
 # target to build an object file
 main.cpp.o:
 	cd /home/sri/hermes3d && $(MAKE) -f tests/linear-solvers/CMakeFiles/solver.dir/build.make tests/linear-solvers/CMakeFiles/solver.dir/main.cpp.o
-<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f tests/linear-solvers/CMakeFiles/solver-cplx.dir/build.make tests/linear-solvers/CMakeFiles/solver-cplx.dir/main.cpp.o
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -251,10 +236,7 @@ main.i: main.cpp.i
 # target to preprocess a source file
 main.cpp.i:
 	cd /home/sri/hermes3d && $(MAKE) -f tests/linear-solvers/CMakeFiles/solver.dir/build.make tests/linear-solvers/CMakeFiles/solver.dir/main.cpp.i
-<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f tests/linear-solvers/CMakeFiles/solver-cplx.dir/build.make tests/linear-solvers/CMakeFiles/solver-cplx.dir/main.cpp.i
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -263,10 +245,7 @@ main.s: main.cpp.s
 # target to generate assembly for a file
 main.cpp.s:
 	cd /home/sri/hermes3d && $(MAKE) -f tests/linear-solvers/CMakeFiles/solver.dir/build.make tests/linear-solvers/CMakeFiles/solver.dir/main.cpp.s
-<<<<<<< HEAD
 	cd /home/sri/hermes3d && $(MAKE) -f tests/linear-solvers/CMakeFiles/solver-cplx.dir/build.make tests/linear-solvers/CMakeFiles/solver-cplx.dir/main.cpp.s
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 .PHONY : main.cpp.s
 
 # Help Target
@@ -284,10 +263,7 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... solver"
-<<<<<<< HEAD
 	@echo "... solver-cplx"
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	@echo "... test"
 	@echo "... __/__/common/trace.o"
 	@echo "... __/__/common/trace.i"

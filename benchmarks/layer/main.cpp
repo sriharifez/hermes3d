@@ -8,13 +8,8 @@
 #include <hermes3d.h>
 
 // Problem parameters.
-<<<<<<< HEAD
 const int INIT_REF_NUM = 1;          // Number of initial uniform mesh refinements.
 const int P_INIT = 1;		     // Initial polynomial degree of all mesh elements.
-=======
-const int INIT_REF_NUM = 2;          // Number of initial uniform mesh refinements.
-const int P_INIT = 2;		     // Initial polynomial degree of all mesh elements.
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 const double THRESHOLD = 0.3;	     // Error threshold for element refinement of the adapt(...) function 
 				     // (default) STRATEGY = 0 ... refine elements elements until sqrt(THRESHOLD) 
 				     // times total error is processed. If more elements have similar errors, 
@@ -26,30 +21,13 @@ const double ERR_STOP  = 1;	     // Stopping criterion for adaptivity (rel. erro
 const int NDOF_STOP = 2000;	     // Adaptivity process stops when the number of degrees of freedom grows
 				     // over this limit. This is to prevent h-adaptivity to go on forever.
 
-const int A = 50.0;		     // SPHERE RADIUS.
-<<<<<<< HEAD
-
 //POTENTIAL FUNCTION
 template<typename T>
 T F(T x, T y, T z) {
 	//Hydrogen
 	return -0.5/sqrt(x*x+y*y+z*z);
-	//Sphere
-	//return A/2 * ( -1/( (x*x+y*y+z*z)-A*A ) + 1/(x*x+y*y+z*z) );
 }
 
-=======
-
-//POTENTIAL FUNCTION
-template<typename T>
-T F(T x, T y, T z) {
-	//Hydrogen
-	return -0.5/sqrt(x*x+y*y+z*z);
-	//Sphere
-	//return A/2 * ( -1/( (x*x+y*y+z*z)-A*A ) + 1/(x*x+y*y+z*z) );
-}
-
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 double g_D(double x, double y, double z) {
   return 0.0;
 }
@@ -61,14 +39,9 @@ double g_N(double x, double y, double z) {
 // Boundary condition types.
 BCType bc_types(int marker)
 {
-<<<<<<< HEAD
   //if (marker == 1 or 2 or 3 or 4 or 5 or 6) 
   return BC_ESSENTIAL;
   //else return BC_NATURAL;
-=======
-  if (marker = 1 or 2 or 3 or 4 or 5 or 6) return BC_ESSENTIAL;
-  else return BC_NATURAL;
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 }
 
 // Essential (Dirichlet) boundary condition values.
@@ -114,15 +87,10 @@ void out_fn(MeshFunction *x, const char *name, int i) {
 /***********************************************************************************
  * main program *
 ************************************************************************************/
-<<<<<<< HEAD
 int main(int argc, char ** args)
 {
 //Generate the mesh
 //system("matlab -nojvm -nosplash -nodisplay -r meshgen3");
-=======
-int main(int argc, char* argv[])
-{
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
   // Load the mesh.
   Mesh mesh;
   Mesh3DReader mesh_loader;
@@ -130,41 +98,22 @@ int main(int argc, char* argv[])
 
   // Initial uniform  mesh refinements.
   for (int i=0; i < INIT_REF_NUM; i++)
-<<<<<<< HEAD
   mesh.refine_all_elements(H3D_H3D_H3D_REFT_HEX_XYZ);
   Word_t (nelem) = mesh.get_num_elements();
   printf("Number of elements is %d.\n", (int) nelem);
   //mesh_loader.save("refined.mesh3d", &mesh);
-=======
-  mesh.refine_all_elements(REFT_HEX_XYZ);
-  int (nelem) = mesh.get_num_elements();
-  printf("Number of elements is %d.\n", nelem);
-  //mesh.save("refined.mesh3d");
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 
   // Initialize the shapeset.
   H1ShapesetLobattoHex shapeset;
   
-<<<<<<< HEAD
-=======
-  // Matrix solver.  //Matrix solver.
-  UMFPackMatrix mat1;
-  UMFPackVector rhs1;
-  UMFPackMatrix mat2;
-  UMFPackVector rhs2;
-  UMFPackLinearSolver solver1(&mat1, &rhs2);
-  UMFPackLinearSolver solver2(&mat1, &rhs2);
-
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
   // Create H1 space to setup the problem.
   H1Space space(&mesh, &shapeset);
   space.set_bc_types(bc_types);
   space.set_essential_bc_values(essential_bc_values);
-  space.set_uniform_order(order3_t(P_INIT,P_INIT,P_INIT));
+  space.set_uniform_order(order3_t(P_INIT, P_INIT, P_INIT));
 
   // Initialize the weak formulation.
   WeakForm wf1(1);
-<<<<<<< HEAD
   wf1.add_matrix_form(0, 0, bilinear_form_schro1<double, double>, bilinear_form_schro1<ord_t, ord_t>, SYM, ANY);
 
   WeakForm wf2(1);
@@ -184,19 +133,6 @@ int main(int argc, char* argv[])
   
   LinProblem sys2(&wf2);
   sys2.set_space(&space);
-=======
-  wf1.add_matrix_form(0, 0, bilinear_form_schro1<double, double>, bilinear_form_schro1<ord_t, ord_t>, SYM);
-
-  WeakForm wf2(1);
-  wf2.add_matrix_form(0, 0, bilinear_form_schro2<double, double>, bilinear_form_schro2<ord_t, ord_t>, SYM);
-
-  // Initialize the coarse mesh problem.
-  LinProblem sys1(&wf1);
-  sys1.set_spaces(1, &space);
-  
-  LinProblem sys2(&wf2);
-  sys2.set_spaces(1, &space);
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 
 /////////////////////////////////////////////////////////////////////
 // Adaptivity loop.
@@ -208,13 +144,8 @@ int main(int argc, char* argv[])
 
   // Procedures for coarse mesh problem.
   // Assign DOF.
-<<<<<<< HEAD
     int ndofs = space.assign_dofs();
     printf("  - Number of DOF: %d\n", ndofs);
-=======
-    int ndof = space.assign_dofs();
-    printf("  - Number of DOF: %d\n", ndof);
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 
   // Assemble coarse stiffness matrix and rhs.
   sys1.assemble(&mat1, &rhs1);
@@ -224,22 +155,11 @@ int main(int argc, char* argv[])
 
 	// Dump the system.
         FILE * pFile;
-<<<<<<< HEAD
-        char buffer [100];for (int i=0; i < INIT_REF_NUM; i++)
-        pFile = fopen ("Asparse.mat" , "w+");
-	mat1.dump(pFile, "sys1", DF_MATLAB_SPARSE);
-        fclose (pFile);
-
-        pFile = fopen ("vectortest.mat" , "w+");
-	rhs1.dump(pFile, "sys1", DF_MATLAB_SPARSE);
-        fclose (pFile);
-
-=======
         char buffer [100];
         pFile = fopen ("Asparse.mat" , "w+");
 	mat1.dump(pFile, "sys1", DF_MATLAB_SPARSE);
         fclose (pFile);
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
+
 	pFile = fopen ("Msparse.mat" , "w+");
 	mat2.dump(pFile, "sys2", DF_MATLAB_SPARSE);
         fclose (pFile);
@@ -271,14 +191,8 @@ int main(int argc, char* argv[])
 	  while(!inf.getline(temp, 100).eof())
 	  {
 	//Magnitude Amplified to make 3D plot more exaggerated.
-<<<<<<< HEAD
 	  x[I]=strtof(temp,&pEnd);
-          printf("%f \n",x[I]);
-	  I=I+1; 
-=======
-	  //x[I]=400*strtof(temp,&pEnd);
-	  //I=I+1;
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
+	  I=I+1;
 	  }
 
 	//Construct a solution.
@@ -290,15 +204,11 @@ int main(int argc, char* argv[])
 	out_fn(&sln, "Solution", 0);
 
 /////////////////////////////////////////////////////
-<<<<<<< HEAD
-=======
 
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
     // Solving fine mesh problem.
     printf("Solving on fine mesh:\n");
 
     //Matrix solver.
-<<<<<<< HEAD
     UMFPackLinearSolver rsolver1(&mat1, &rhs2);
     UMFPackLinearSolver rsolver2(&mat1, &rhs2);
 
@@ -307,20 +217,10 @@ int main(int argc, char* argv[])
     rmesh.copy(mesh);
     rmesh.refine_all_elements(H3D_H3D_H3D_REFT_HEX_XYZ);
     mesh_loader.save("finerefined.mesh3d", &rmesh);    
-=======
-   UMFPackLinearSolver rsolver1(&mat1, &rhs2);
-   UMFPackLinearSolver rsolver2(&mat1, &rhs2);
-
-    // Construct the refined mesh for reference(refined) solution.
-    Mesh rmesh;
-    rmesh.copy(mesh);
-    //rmesh.refine_all_elements(REFT_HEX_XYZ);
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 
     // Setup space for the reference (globally refined)  solution.
     Space *rspace = space.dup(&rmesh);
     rspace->copy_orders(space, 1);
-<<<<<<< HEAD
 
   
     // Initialize the mesh problem for reference solution.
@@ -328,14 +228,6 @@ int main(int argc, char* argv[])
     rlp1.set_space(rspace);
     LinProblem rlp2(&wf2);
     rlp2.set_space(rspace);
-=======
-  
-    // Initialize the mesh problem for reference solution.
-    LinProblem rlp1(&wf1);
-    rlp1.set_spaces(1, rspace);
-    LinProblem rlp2(&wf2);
-    rlp2.set_spaces(1, rspace);
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 
 
     // Assign DOF.
@@ -383,23 +275,13 @@ int main(int argc, char* argv[])
 	  while(!rinf.getline(rtemp, 100).eof())
 	  {
 	//Magnitude Amplified to make 3D plot more exaggerated.
-<<<<<<< HEAD
 	 rx[I]=strtof(rtemp,&rpEnd);
-	printf("%f \n",rx[I]);
 	 rI=rI+1;
-=======
-	 //rx[I]=400*strtof(rtemp,&rpEnd);
-	 //rI=rI+1;
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 	  }
 
 	// Construct the reference(refined) solution.
     	Solution rsln(&rmesh);
-<<<<<<< HEAD
 	rsln.set_fe_solution(rspace, rx);
-=======
-	rsln.set_fe_solution(rspace, rx, 1);
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 ///////////////////////////////////////////////////////////
 
 //CHECK TO SEE IF THE rsln VARIABLE WAS ASSIGNED PROPERLY. Plot it
@@ -453,13 +335,9 @@ out_fn(&rsln, "RSolution", 0);
     rhs1.free();
     mat2.free();
     rhs2.free();
-<<<<<<< HEAD
  //Remove Below "Break"
 //break;
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
   } while (!done);
 
     return 1;
 }
-

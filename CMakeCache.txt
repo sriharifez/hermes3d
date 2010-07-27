@@ -210,12 +210,9 @@ CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-<<<<<<< HEAD
-=======
 //Build complex version of Hermes3D
 COMPLEX:BOOL=OFF
 
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 //Enable to build Debian packages
 CPACK_BINARY_DEB:BOOL=OFF
 
@@ -240,15 +237,12 @@ CPACK_BINARY_TZ:BOOL=ON
 //Build debug version
 DEBUG:BOOL=ON
 
-<<<<<<< HEAD
 //Build complex version of Hermes3D
 H3D_COMPLEX:BOOL=ON
 
 //Build real (double precision) version of Hermes3D
 H3D_REAL:BOOL=ON
 
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 //Path to a file.
 JUDY_INCLUDE_DIR:PATH=/usr/include
 
@@ -270,12 +264,9 @@ LAPACK_vecLib_LIBRARY:FILEPATH=LAPACK_vecLib_LIBRARY-NOTFOUND
 //Directory were the output will be written
 OUTPUT_DIR:STRING=
 
-<<<<<<< HEAD
-=======
 //Build real (double precision) version of Hermes3D
 REAL:BOOL=ON
 
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 //Path to a file.
 UMFPACK_INCLUDE_DIR:PATH=/usr/include/suitesparse
 
@@ -340,15 +331,12 @@ adapt-smooth_BINARY_DIR:STATIC=/home/sri/hermes3d/tests/adapt/smooth
 adapt-smooth_SOURCE_DIR:STATIC=/home/sri/hermes3d/tests/adapt/smooth
 
 //Value Computed by CMake
-<<<<<<< HEAD
 bessel_BINARY_DIR:STATIC=/home/sri/hermes3d/benchmarks/bessel
 
 //Value Computed by CMake
 bessel_SOURCE_DIR:STATIC=/home/sri/hermes3d/benchmarks/bessel
 
 //Value Computed by CMake
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 calc-hex-h1-dirichlet_BINARY_DIR:STATIC=/home/sri/hermes3d/tests/calc/hex-h1-dirichlet
 
 //Value Computed by CMake
@@ -397,7 +385,6 @@ calc-hex-h1_BINARY_DIR:STATIC=/home/sri/hermes3d/tests/calc/hex-h1
 calc-hex-h1_SOURCE_DIR:STATIC=/home/sri/hermes3d/tests/calc/hex-h1
 
 //Value Computed by CMake
-<<<<<<< HEAD
 calc-hex-hcurl-cplx_BINARY_DIR:STATIC=/home/sri/hermes3d/tests/calc/hex-hcurl-cplx
 
 //Value Computed by CMake
@@ -410,8 +397,6 @@ calc-hex-hcurl-imped_BINARY_DIR:STATIC=/home/sri/hermes3d/tests/calc/hex-hcurl-i
 calc-hex-hcurl-imped_SOURCE_DIR:STATIC=/home/sri/hermes3d/tests/calc/hex-hcurl-imped
 
 //Value Computed by CMake
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 calc-hex-hcurl_BINARY_DIR:STATIC=/home/sri/hermes3d/tests/calc/hex-hcurl
 
 //Value Computed by CMake
@@ -448,17 +433,10 @@ elastostatics_BINARY_DIR:STATIC=/home/sri/hermes3d/examples/elastostatics
 elastostatics_SOURCE_DIR:STATIC=/home/sri/hermes3d/examples/elastostatics
 
 //Value Computed by CMake
-<<<<<<< HEAD
 fichera_BINARY_DIR:STATIC=/home/sri/hermes3d/benchmarks/fichera
 
 //Value Computed by CMake
 fichera_SOURCE_DIR:STATIC=/home/sri/hermes3d/benchmarks/fichera
-=======
-fichera_BINARY_DIR:STATIC=/home/sri/hermes3d/examples/fichera
-
-//Value Computed by CMake
-fichera_SOURCE_DIR:STATIC=/home/sri/hermes3d/examples/fichera
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 
 //Value Computed by CMake
 h3d_BINARY_DIR:STATIC=/home/sri/hermes3d
@@ -473,12 +451,9 @@ heat-conduction_BINARY_DIR:STATIC=/home/sri/hermes3d/examples/heat-conduction
 heat-conduction_SOURCE_DIR:STATIC=/home/sri/hermes3d/examples/heat-conduction
 
 //Dependencies for the target
-<<<<<<< HEAD
 hermes3d-cplx-debug_LIB_DEPENDS:STATIC=general;/usr/lib/libJudy.so;general;/usr/lib/libblas.so;general;/usr/lib/libumfpack.so;general;/usr/lib/libamd.so;general;/usr/lib/liblapack.so;general;/usr/lib/libblas.so;
 
 //Dependencies for the target
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 hermes3d-debug_LIB_DEPENDS:STATIC=general;/usr/lib/libJudy.so;general;/usr/lib/libblas.so;general;/usr/lib/libumfpack.so;general;/usr/lib/libamd.so;general;/usr/lib/liblapack.so;general;/usr/lib/libblas.so;
 
 //Value Computed by CMake
@@ -731,11 +706,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-<<<<<<< HEAD
 CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=49
-=======
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=46
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

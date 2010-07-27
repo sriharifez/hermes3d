@@ -51,10 +51,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/sri/hermes3d/src/quadcheb.h"
     "/home/sri/hermes3d/src/shapeset.h"
     "/home/sri/hermes3d/src/quad.h"
-<<<<<<< HEAD
     "/home/sri/hermes3d/src/tuple.h"
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
     "/home/sri/hermes3d/src/refdomain.h"
     "/home/sri/hermes3d/src/transform.h"
     "/home/sri/hermes3d/src/traverse.h"
@@ -178,7 +175,6 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   ENDIF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhermes3d-debug.so")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
-<<<<<<< HEAD
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhermes3d-cplx-debug.so")
     FILE(RPATH_CHECK
@@ -193,5 +189,3 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   ENDIF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhermes3d-cplx-debug.so")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad

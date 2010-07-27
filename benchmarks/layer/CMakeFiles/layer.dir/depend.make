@@ -58,11 +58,8 @@ benchmarks/layer/CMakeFiles/layer.dir/main.cpp.o: common/mapord.h
 benchmarks/layer/CMakeFiles/layer.dir/main.cpp.o: common/timer.h
 benchmarks/layer/CMakeFiles/layer.dir/main.cpp.o: common/trace.h
 benchmarks/layer/CMakeFiles/layer.dir/main.cpp.o: common/utils.h
-<<<<<<< HEAD
 benchmarks/layer/CMakeFiles/layer.dir/main.cpp.o: src/adapt/../tuple.h
 benchmarks/layer/CMakeFiles/layer.dir/main.cpp.o: src/adapt/../weakform.h
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 benchmarks/layer/CMakeFiles/layer.dir/main.cpp.o: src/adapt/h1.h
 benchmarks/layer/CMakeFiles/layer.dir/main.cpp.o: src/adapt/h1proj.h
 benchmarks/layer/CMakeFiles/layer.dir/main.cpp.o: src/adapt/h1projipol.h
@@ -133,9 +130,6 @@ benchmarks/layer/CMakeFiles/layer.dir/main.cpp.o: src/space/../space.h
 benchmarks/layer/CMakeFiles/layer.dir/main.cpp.o: src/space/h1.h
 benchmarks/layer/CMakeFiles/layer.dir/main.cpp.o: src/space/hcurl.h
 benchmarks/layer/CMakeFiles/layer.dir/main.cpp.o: src/transform.h
-<<<<<<< HEAD
 benchmarks/layer/CMakeFiles/layer.dir/main.cpp.o: src/tuple.h
-=======
->>>>>>> 7b4a514fa10cb5c19abd7f0a921f69407b9ba3ad
 benchmarks/layer/CMakeFiles/layer.dir/main.cpp.o: src/weakform.h
 
