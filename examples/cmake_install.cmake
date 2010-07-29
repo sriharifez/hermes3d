@@ -37,6 +37,7 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/home/sri/hermes3d/examples/elastostatics/cmake_install.cmake")
   INCLUDE("/home/sri/hermes3d/examples/heat-conduction/cmake_install.cmake")
   INCLUDE("/home/sri/hermes3d/examples/heat-cubit/cmake_install.cmake")
+  INCLUDE("/home/sri/hermes3d/examples/schrodinger3d/cmake_install.cmake")
   INCLUDE("/home/sri/hermes3d/examples/singpert-aniso/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)

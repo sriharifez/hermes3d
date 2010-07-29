@@ -547,6 +547,12 @@ regularize_BINARY_DIR:STATIC=/home/sri/hermes3d/tests/mesh/regularize
 regularize_SOURCE_DIR:STATIC=/home/sri/hermes3d/tests/mesh/regularize
 
 //Value Computed by CMake
+schrodinger3d_BINARY_DIR:STATIC=/home/sri/hermes3d/examples/schrodinger3d
+
+//Value Computed by CMake
+schrodinger3d_SOURCE_DIR:STATIC=/home/sri/hermes3d/examples/schrodinger3d
+
+//Value Computed by CMake
 singpert-aniso_BINARY_DIR:STATIC=/home/sri/hermes3d/examples/singpert-aniso
 
 //Value Computed by CMake
@@ -706,7 +712,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=49
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=50
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

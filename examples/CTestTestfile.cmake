@@ -7,4 +7,5 @@
 SUBDIRS(elastostatics)
 SUBDIRS(heat-conduction)
 SUBDIRS(heat-cubit)
+SUBDIRS(schrodinger3d)
 SUBDIRS(singpert-aniso)

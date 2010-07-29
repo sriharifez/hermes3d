@@ -39,6 +39,7 @@
 /home/sri/hermes3d/tests/adapt/projection/CMakeFiles/projection.dir
 /home/sri/hermes3d/tests/quadrature/CMakeFiles/quadrature.dir
 /home/sri/hermes3d/tests/mesh/regularize/CMakeFiles/regularize.dir
+/home/sri/hermes3d/examples/schrodinger3d/CMakeFiles/schrodinger3d.dir
 /home/sri/hermes3d/examples/singpert-aniso/CMakeFiles/singpert-aniso.dir
 /home/sri/hermes3d/tests/linear-solvers/CMakeFiles/solver.dir
 /home/sri/hermes3d/tests/linear-solvers/CMakeFiles/solver-cplx.dir

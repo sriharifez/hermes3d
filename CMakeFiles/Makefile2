@@ -166,7 +166,7 @@ src/preinstall:
 src/CMakeFiles/hermes3d-cplx-debug.dir/all:
 	$(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/depend
 	$(MAKE) -f src/CMakeFiles/hermes3d-cplx-debug.dir/build.make src/CMakeFiles/hermes3d-cplx-debug.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52
 	@echo "Built target hermes3d-cplx-debug"
 .PHONY : src/CMakeFiles/hermes3d-cplx-debug.dir/all
 
@@ -201,7 +201,7 @@ clean: src/CMakeFiles/hermes3d-cplx-debug.dir/clean
 src/CMakeFiles/hermes3d-debug.dir/all:
 	$(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/depend
 	$(MAKE) -f src/CMakeFiles/hermes3d-debug.dir/build.make src/CMakeFiles/hermes3d-debug.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76
 	@echo "Built target hermes3d-debug"
 .PHONY : src/CMakeFiles/hermes3d-debug.dir/all
 
@@ -370,7 +370,7 @@ tests/adapt/projection/preinstall:
 tests/adapt/projection/CMakeFiles/projection.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f tests/adapt/projection/CMakeFiles/projection.dir/build.make tests/adapt/projection/CMakeFiles/projection.dir/depend
 	$(MAKE) -f tests/adapt/projection/CMakeFiles/projection.dir/build.make tests/adapt/projection/CMakeFiles/projection.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  93
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  92
 	@echo "Built target projection"
 .PHONY : tests/adapt/projection/CMakeFiles/projection.dir/all
 
@@ -530,7 +530,7 @@ tests/calc/tetra-h1/preinstall:
 tests/calc/tetra-h1/CMakeFiles/calc-tetra-h1.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f tests/calc/tetra-h1/CMakeFiles/calc-tetra-h1.dir/build.make tests/calc/tetra-h1/CMakeFiles/calc-tetra-h1.dir/depend
 	$(MAKE) -f tests/calc/tetra-h1/CMakeFiles/calc-tetra-h1.dir/build.make tests/calc/tetra-h1/CMakeFiles/calc-tetra-h1.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  21
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  20 21
 	@echo "Built target calc-tetra-h1"
 .PHONY : tests/calc/tetra-h1/CMakeFiles/calc-tetra-h1.dir/all
 
@@ -540,7 +540,7 @@ all: tests/calc/tetra-h1/CMakeFiles/calc-tetra-h1.dir/all
 
 # Build rule for subdir invocation for target.
 tests/calc/tetra-h1/CMakeFiles/calc-tetra-h1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 26
 	$(MAKE) -f CMakeFiles/Makefile2 tests/calc/tetra-h1/CMakeFiles/calc-tetra-h1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 0
 .PHONY : tests/calc/tetra-h1/CMakeFiles/calc-tetra-h1.dir/rule
@@ -630,7 +630,7 @@ tests/calc/tetra-h1-neumann/preinstall:
 tests/calc/tetra-h1-neumann/CMakeFiles/calc-tetra-h1-neumann.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f tests/calc/tetra-h1-neumann/CMakeFiles/calc-tetra-h1-neumann.dir/build.make tests/calc/tetra-h1-neumann/CMakeFiles/calc-tetra-h1-neumann.dir/depend
 	$(MAKE) -f tests/calc/tetra-h1-neumann/CMakeFiles/calc-tetra-h1-neumann.dir/build.make tests/calc/tetra-h1-neumann/CMakeFiles/calc-tetra-h1-neumann.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  23 24
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  23
 	@echo "Built target calc-tetra-h1-neumann"
 .PHONY : tests/calc/tetra-h1-neumann/CMakeFiles/calc-tetra-h1-neumann.dir/all
 
@@ -640,7 +640,7 @@ all: tests/calc/tetra-h1-neumann/CMakeFiles/calc-tetra-h1-neumann.dir/all
 
 # Build rule for subdir invocation for target.
 tests/calc/tetra-h1-neumann/CMakeFiles/calc-tetra-h1-neumann.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 tests/calc/tetra-h1-neumann/CMakeFiles/calc-tetra-h1-neumann.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 0
 .PHONY : tests/calc/tetra-h1-neumann/CMakeFiles/calc-tetra-h1-neumann.dir/rule
@@ -680,7 +680,7 @@ tests/calc/tetra-h1-newton/preinstall:
 tests/calc/tetra-h1-newton/CMakeFiles/calc-tetra-h1-newton.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f tests/calc/tetra-h1-newton/CMakeFiles/calc-tetra-h1-newton.dir/build.make tests/calc/tetra-h1-newton/CMakeFiles/calc-tetra-h1-newton.dir/depend
 	$(MAKE) -f tests/calc/tetra-h1-newton/CMakeFiles/calc-tetra-h1-newton.dir/build.make tests/calc/tetra-h1-newton/CMakeFiles/calc-tetra-h1-newton.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  25
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  24 25
 	@echo "Built target calc-tetra-h1-newton"
 .PHONY : tests/calc/tetra-h1-newton/CMakeFiles/calc-tetra-h1-newton.dir/all
 
@@ -690,7 +690,7 @@ all: tests/calc/tetra-h1-newton/CMakeFiles/calc-tetra-h1-newton.dir/all
 
 # Build rule for subdir invocation for target.
 tests/calc/tetra-h1-newton/CMakeFiles/calc-tetra-h1-newton.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 26
 	$(MAKE) -f CMakeFiles/Makefile2 tests/calc/tetra-h1-newton/CMakeFiles/calc-tetra-h1-newton.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 0
 .PHONY : tests/calc/tetra-h1-newton/CMakeFiles/calc-tetra-h1-newton.dir/rule
@@ -945,7 +945,7 @@ tests/calc/hex-h1-unsym/preinstall:
 tests/calc/hex-h1-unsym/CMakeFiles/calc-hex-h1-unsym.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f tests/calc/hex-h1-unsym/CMakeFiles/calc-hex-h1-unsym.dir/build.make tests/calc/hex-h1-unsym/CMakeFiles/calc-hex-h1-unsym.dir/depend
 	$(MAKE) -f tests/calc/hex-h1-unsym/CMakeFiles/calc-hex-h1-unsym.dir/build.make tests/calc/hex-h1-unsym/CMakeFiles/calc-hex-h1-unsym.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  15 16
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  15
 	@echo "Built target calc-hex-h1-unsym"
 .PHONY : tests/calc/hex-h1-unsym/CMakeFiles/calc-hex-h1-unsym.dir/all
 
@@ -955,7 +955,7 @@ all: tests/calc/hex-h1-unsym/CMakeFiles/calc-hex-h1-unsym.dir/all
 
 # Build rule for subdir invocation for target.
 tests/calc/hex-h1-unsym/CMakeFiles/calc-hex-h1-unsym.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 tests/calc/hex-h1-unsym/CMakeFiles/calc-hex-h1-unsym.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 0
 .PHONY : tests/calc/hex-h1-unsym/CMakeFiles/calc-hex-h1-unsym.dir/rule
@@ -1145,7 +1145,7 @@ tests/calc/hex-hcurl/preinstall:
 tests/calc/hex-hcurl/CMakeFiles/calc-hex-hcurl.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f tests/calc/hex-hcurl/CMakeFiles/calc-hex-hcurl.dir/build.make tests/calc/hex-hcurl/CMakeFiles/calc-hex-hcurl.dir/depend
 	$(MAKE) -f tests/calc/hex-hcurl/CMakeFiles/calc-hex-hcurl.dir/build.make tests/calc/hex-hcurl/CMakeFiles/calc-hex-hcurl.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  17
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  16 17
 	@echo "Built target calc-hex-hcurl"
 .PHONY : tests/calc/hex-hcurl/CMakeFiles/calc-hex-hcurl.dir/all
 
@@ -1155,7 +1155,7 @@ all: tests/calc/hex-hcurl/CMakeFiles/calc-hex-hcurl.dir/all
 
 # Build rule for subdir invocation for target.
 tests/calc/hex-hcurl/CMakeFiles/calc-hex-hcurl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 26
 	$(MAKE) -f CMakeFiles/Makefile2 tests/calc/hex-hcurl/CMakeFiles/calc-hex-hcurl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 0
 .PHONY : tests/calc/hex-hcurl/CMakeFiles/calc-hex-hcurl.dir/rule
@@ -1245,7 +1245,7 @@ tests/calc/hex-hcurl-imped/preinstall:
 tests/calc/hex-hcurl-imped/CMakeFiles/calc-hex-hcurl-imped.dir/all: src/CMakeFiles/hermes3d-cplx-debug.dir/all
 	$(MAKE) -f tests/calc/hex-hcurl-imped/CMakeFiles/calc-hex-hcurl-imped.dir/build.make tests/calc/hex-hcurl-imped/CMakeFiles/calc-hex-hcurl-imped.dir/depend
 	$(MAKE) -f tests/calc/hex-hcurl-imped/CMakeFiles/calc-hex-hcurl-imped.dir/build.make tests/calc/hex-hcurl-imped/CMakeFiles/calc-hex-hcurl-imped.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  19 20
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  19
 	@echo "Built target calc-hex-hcurl-imped"
 .PHONY : tests/calc/hex-hcurl-imped/CMakeFiles/calc-hex-hcurl-imped.dir/all
 
@@ -1255,7 +1255,7 @@ all: tests/calc/hex-hcurl-imped/CMakeFiles/calc-hex-hcurl-imped.dir/all
 
 # Build rule for subdir invocation for target.
 tests/calc/hex-hcurl-imped/CMakeFiles/calc-hex-hcurl-imped.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 tests/calc/hex-hcurl-imped/CMakeFiles/calc-hex-hcurl-imped.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 0
 .PHONY : tests/calc/hex-hcurl-imped/CMakeFiles/calc-hex-hcurl-imped.dir/rule
@@ -1315,7 +1315,7 @@ tests/hang-nodes/hex-h1/preinstall:
 tests/hang-nodes/hex-h1/CMakeFiles/hnnd-hex-h1-dirichlet.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f tests/hang-nodes/hex-h1/CMakeFiles/hnnd-hex-h1-dirichlet.dir/build.make tests/hang-nodes/hex-h1/CMakeFiles/hnnd-hex-h1-dirichlet.dir/depend
 	$(MAKE) -f tests/hang-nodes/hex-h1/CMakeFiles/hnnd-hex-h1-dirichlet.dir/build.make tests/hang-nodes/hex-h1/CMakeFiles/hnnd-hex-h1-dirichlet.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  78 79
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  77 78
 	@echo "Built target hnnd-hex-h1-dirichlet"
 .PHONY : tests/hang-nodes/hex-h1/CMakeFiles/hnnd-hex-h1-dirichlet.dir/all
 
@@ -1350,7 +1350,7 @@ clean: tests/hang-nodes/hex-h1/CMakeFiles/hnnd-hex-h1-dirichlet.dir/clean
 tests/hang-nodes/hex-h1/CMakeFiles/hnnd-hex-h1-newton.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f tests/hang-nodes/hex-h1/CMakeFiles/hnnd-hex-h1-newton.dir/build.make tests/hang-nodes/hex-h1/CMakeFiles/hnnd-hex-h1-newton.dir/depend
 	$(MAKE) -f tests/hang-nodes/hex-h1/CMakeFiles/hnnd-hex-h1-newton.dir/build.make tests/hang-nodes/hex-h1/CMakeFiles/hnnd-hex-h1-newton.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  80
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  79
 	@echo "Built target hnnd-hex-h1-newton"
 .PHONY : tests/hang-nodes/hex-h1/CMakeFiles/hnnd-hex-h1-newton.dir/all
 
@@ -1400,7 +1400,7 @@ tests/hang-nodes/hex-hcurl/preinstall:
 tests/hang-nodes/hex-hcurl/CMakeFiles/hnnd-hex-hcurl.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f tests/hang-nodes/hex-hcurl/CMakeFiles/hnnd-hex-hcurl.dir/build.make tests/hang-nodes/hex-hcurl/CMakeFiles/hnnd-hex-hcurl.dir/depend
 	$(MAKE) -f tests/hang-nodes/hex-hcurl/CMakeFiles/hnnd-hex-hcurl.dir/build.make tests/hang-nodes/hex-hcurl/CMakeFiles/hnnd-hex-hcurl.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  81
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  80
 	@echo "Built target hnnd-hex-hcurl"
 .PHONY : tests/hang-nodes/hex-hcurl/CMakeFiles/hnnd-hex-hcurl.dir/all
 
@@ -1450,7 +1450,7 @@ tests/judy-templates/preinstall:
 tests/judy-templates/CMakeFiles/judy-templates.dir/all:
 	$(MAKE) -f tests/judy-templates/CMakeFiles/judy-templates.dir/build.make tests/judy-templates/CMakeFiles/judy-templates.dir/depend
 	$(MAKE) -f tests/judy-templates/CMakeFiles/judy-templates.dir/build.make tests/judy-templates/CMakeFiles/judy-templates.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  82
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  81
 	@echo "Built target judy-templates"
 .PHONY : tests/judy-templates/CMakeFiles/judy-templates.dir/all
 
@@ -1611,7 +1611,7 @@ tests/mesh/copy/preinstall:
 tests/mesh/copy/CMakeFiles/mesh-copy.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f tests/mesh/copy/CMakeFiles/mesh-copy.dir/build.make tests/mesh/copy/CMakeFiles/mesh-copy.dir/depend
 	$(MAKE) -f tests/mesh/copy/CMakeFiles/mesh-copy.dir/build.make tests/mesh/copy/CMakeFiles/mesh-copy.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  84 85
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  83 84
 	@echo "Built target mesh-copy"
 .PHONY : tests/mesh/copy/CMakeFiles/mesh-copy.dir/all
 
@@ -1661,7 +1661,7 @@ tests/mesh/refinements/preinstall:
 tests/mesh/refinements/CMakeFiles/mesh-refinements.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f tests/mesh/refinements/CMakeFiles/mesh-refinements.dir/build.make tests/mesh/refinements/CMakeFiles/mesh-refinements.dir/depend
 	$(MAKE) -f tests/mesh/refinements/CMakeFiles/mesh-refinements.dir/build.make tests/mesh/refinements/CMakeFiles/mesh-refinements.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  86 87
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  85 86
 	@echo "Built target mesh-refinements"
 .PHONY : tests/mesh/refinements/CMakeFiles/mesh-refinements.dir/all
 
@@ -1711,7 +1711,7 @@ tests/mesh/regularize/preinstall:
 tests/mesh/regularize/CMakeFiles/regularize.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f tests/mesh/regularize/CMakeFiles/regularize.dir/build.make tests/mesh/regularize/CMakeFiles/regularize.dir/depend
 	$(MAKE) -f tests/mesh/regularize/CMakeFiles/regularize.dir/build.make tests/mesh/regularize/CMakeFiles/regularize.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  95
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  94
 	@echo "Built target regularize"
 .PHONY : tests/mesh/regularize/CMakeFiles/regularize.dir/all
 
@@ -1763,7 +1763,7 @@ tests/mesh/multi-mesh/preinstall:
 tests/mesh/multi-mesh/CMakeFiles/multi-mesh-rhs2.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f tests/mesh/multi-mesh/CMakeFiles/multi-mesh-rhs2.dir/build.make tests/mesh/multi-mesh/CMakeFiles/multi-mesh-rhs2.dir/depend
 	$(MAKE) -f tests/mesh/multi-mesh/CMakeFiles/multi-mesh-rhs2.dir/build.make tests/mesh/multi-mesh/CMakeFiles/multi-mesh-rhs2.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  88
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  87
 	@echo "Built target multi-mesh-rhs2"
 .PHONY : tests/mesh/multi-mesh/CMakeFiles/multi-mesh-rhs2.dir/all
 
@@ -1798,7 +1798,7 @@ clean: tests/mesh/multi-mesh/CMakeFiles/multi-mesh-rhs2.dir/clean
 tests/mesh/multi-mesh/CMakeFiles/multi-mesh-sys3.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f tests/mesh/multi-mesh/CMakeFiles/multi-mesh-sys3.dir/build.make tests/mesh/multi-mesh/CMakeFiles/multi-mesh-sys3.dir/depend
 	$(MAKE) -f tests/mesh/multi-mesh/CMakeFiles/multi-mesh-sys3.dir/build.make tests/mesh/multi-mesh/CMakeFiles/multi-mesh-sys3.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  89 90
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  88 89
 	@echo "Built target multi-mesh-sys3"
 .PHONY : tests/mesh/multi-mesh/CMakeFiles/multi-mesh-sys3.dir/all
 
@@ -1898,7 +1898,7 @@ tests/orders/preinstall:
 tests/orders/CMakeFiles/orders.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f tests/orders/CMakeFiles/orders.dir/build.make tests/orders/CMakeFiles/orders.dir/depend
 	$(MAKE) -f tests/orders/CMakeFiles/orders.dir/build.make tests/orders/CMakeFiles/orders.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  91
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  90
 	@echo "Built target orders"
 .PHONY : tests/orders/CMakeFiles/orders.dir/all
 
@@ -1985,7 +1985,7 @@ clean: tests/output/CMakeFiles/output-gmsh.dir/clean
 tests/output/CMakeFiles/output-vtk.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f tests/output/CMakeFiles/output-vtk.dir/build.make tests/output/CMakeFiles/output-vtk.dir/depend
 	$(MAKE) -f tests/output/CMakeFiles/output-vtk.dir/build.make tests/output/CMakeFiles/output-vtk.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  92
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  91
 	@echo "Built target output-vtk"
 .PHONY : tests/output/CMakeFiles/output-vtk.dir/all
 
@@ -2035,7 +2035,7 @@ tests/quadrature/preinstall:
 tests/quadrature/CMakeFiles/quadrature.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f tests/quadrature/CMakeFiles/quadrature.dir/build.make tests/quadrature/CMakeFiles/quadrature.dir/depend
 	$(MAKE) -f tests/quadrature/CMakeFiles/quadrature.dir/build.make tests/quadrature/CMakeFiles/quadrature.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  94
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  93
 	@echo "Built target quadrature"
 .PHONY : tests/quadrature/CMakeFiles/quadrature.dir/all
 
@@ -2135,6 +2135,7 @@ clean: tests/timer/CMakeFiles/timer.dir/clean
 examples/all: examples/elastostatics/all
 examples/all: examples/heat-conduction/all
 examples/all: examples/heat-cubit/all
+examples/all: examples/schrodinger3d/all
 examples/all: examples/singpert-aniso/all
 .PHONY : examples/all
 
@@ -2142,6 +2143,7 @@ examples/all: examples/singpert-aniso/all
 examples/clean: examples/elastostatics/clean
 examples/clean: examples/heat-conduction/clean
 examples/clean: examples/heat-cubit/clean
+examples/clean: examples/schrodinger3d/clean
 examples/clean: examples/singpert-aniso/clean
 .PHONY : examples/clean
 
@@ -2149,6 +2151,7 @@ examples/clean: examples/singpert-aniso/clean
 examples/preinstall: examples/elastostatics/preinstall
 examples/preinstall: examples/heat-conduction/preinstall
 examples/preinstall: examples/heat-cubit/preinstall
+examples/preinstall: examples/schrodinger3d/preinstall
 examples/preinstall: examples/singpert-aniso/preinstall
 .PHONY : examples/preinstall
 
@@ -2220,7 +2223,7 @@ examples/heat-conduction/preinstall:
 examples/heat-conduction/CMakeFiles/heat-conduction.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f examples/heat-conduction/CMakeFiles/heat-conduction.dir/build.make examples/heat-conduction/CMakeFiles/heat-conduction.dir/depend
 	$(MAKE) -f examples/heat-conduction/CMakeFiles/heat-conduction.dir/build.make examples/heat-conduction/CMakeFiles/heat-conduction.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  29
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  28
 	@echo "Built target heat-conduction"
 .PHONY : examples/heat-conduction/CMakeFiles/heat-conduction.dir/all
 
@@ -2258,6 +2261,52 @@ examples/heat-cubit/clean:
 # Convenience name for "preinstall" pass in the directory.
 examples/heat-cubit/preinstall:
 .PHONY : examples/heat-cubit/preinstall
+
+#=============================================================================
+# Directory level rules for directory examples/schrodinger3d
+
+# Convenience name for "all" pass in the directory.
+examples/schrodinger3d/all: examples/schrodinger3d/CMakeFiles/schrodinger3d.dir/all
+.PHONY : examples/schrodinger3d/all
+
+# Convenience name for "clean" pass in the directory.
+examples/schrodinger3d/clean: examples/schrodinger3d/CMakeFiles/schrodinger3d.dir/clean
+.PHONY : examples/schrodinger3d/clean
+
+# Convenience name for "preinstall" pass in the directory.
+examples/schrodinger3d/preinstall:
+.PHONY : examples/schrodinger3d/preinstall
+
+#=============================================================================
+# Target rules for target examples/schrodinger3d/CMakeFiles/schrodinger3d.dir
+
+# All Build rule for target.
+examples/schrodinger3d/CMakeFiles/schrodinger3d.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
+	$(MAKE) -f examples/schrodinger3d/CMakeFiles/schrodinger3d.dir/build.make examples/schrodinger3d/CMakeFiles/schrodinger3d.dir/depend
+	$(MAKE) -f examples/schrodinger3d/CMakeFiles/schrodinger3d.dir/build.make examples/schrodinger3d/CMakeFiles/schrodinger3d.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  95
+	@echo "Built target schrodinger3d"
+.PHONY : examples/schrodinger3d/CMakeFiles/schrodinger3d.dir/all
+
+# Build rule for subdir invocation for target.
+examples/schrodinger3d/CMakeFiles/schrodinger3d.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 25
+	$(MAKE) -f CMakeFiles/Makefile2 examples/schrodinger3d/CMakeFiles/schrodinger3d.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 0
+.PHONY : examples/schrodinger3d/CMakeFiles/schrodinger3d.dir/rule
+
+# Convenience name for target.
+schrodinger3d: examples/schrodinger3d/CMakeFiles/schrodinger3d.dir/rule
+.PHONY : schrodinger3d
+
+# clean rule for target.
+examples/schrodinger3d/CMakeFiles/schrodinger3d.dir/clean:
+	$(MAKE) -f examples/schrodinger3d/CMakeFiles/schrodinger3d.dir/build.make examples/schrodinger3d/CMakeFiles/schrodinger3d.dir/clean
+.PHONY : examples/schrodinger3d/CMakeFiles/schrodinger3d.dir/clean
+
+# clean rule for target.
+clean: examples/schrodinger3d/CMakeFiles/schrodinger3d.dir/clean
+.PHONY : clean
 
 #=============================================================================
 # Directory level rules for directory examples/singpert-aniso
@@ -2348,13 +2397,13 @@ benchmarks/fichera/preinstall:
 benchmarks/fichera/CMakeFiles/fichera.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f benchmarks/fichera/CMakeFiles/fichera.dir/build.make benchmarks/fichera/CMakeFiles/fichera.dir/depend
 	$(MAKE) -f benchmarks/fichera/CMakeFiles/fichera.dir/build.make benchmarks/fichera/CMakeFiles/fichera.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  27 28
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  27
 	@echo "Built target fichera"
 .PHONY : benchmarks/fichera/CMakeFiles/fichera.dir/all
 
 # Build rule for subdir invocation for target.
 benchmarks/fichera/CMakeFiles/fichera.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 benchmarks/fichera/CMakeFiles/fichera.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sri/hermes3d/CMakeFiles 0
 .PHONY : benchmarks/fichera/CMakeFiles/fichera.dir/rule
@@ -2394,7 +2443,7 @@ benchmarks/layer/preinstall:
 benchmarks/layer/CMakeFiles/layer.dir/all: src/CMakeFiles/hermes3d-debug.dir/all
 	$(MAKE) -f benchmarks/layer/CMakeFiles/layer.dir/build.make benchmarks/layer/CMakeFiles/layer.dir/depend
 	$(MAKE) -f benchmarks/layer/CMakeFiles/layer.dir/build.make benchmarks/layer/CMakeFiles/layer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  83
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sri/hermes3d/CMakeFiles  82
 	@echo "Built target layer"
 .PHONY : benchmarks/layer/CMakeFiles/layer.dir/all
 

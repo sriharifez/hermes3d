@@ -713,6 +713,19 @@ heat-conduction/fast:
 .PHONY : heat-conduction/fast
 
 #=============================================================================
+# Target rules for targets named schrodinger3d
+
+# Build rule for target.
+schrodinger3d: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 schrodinger3d
+.PHONY : schrodinger3d
+
+# fast build rule for target.
+schrodinger3d/fast:
+	$(MAKE) -f examples/schrodinger3d/CMakeFiles/schrodinger3d.dir/build.make examples/schrodinger3d/CMakeFiles/schrodinger3d.dir/build
+.PHONY : schrodinger3d/fast
+
+#=============================================================================
 # Target rules for targets named singpert-aniso
 
 # Build rule for target.
@@ -821,6 +834,7 @@ help:
 	@echo "... timer"
 	@echo "... elastostatics"
 	@echo "... heat-conduction"
+	@echo "... schrodinger3d"
 	@echo "... singpert-aniso"
 	@echo "... fichera"
 	@echo "... layer"
