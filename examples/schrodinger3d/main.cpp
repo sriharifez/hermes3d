@@ -93,7 +93,7 @@ void out_fn(MeshFunction *x, const char *name, int i) {
 int main(int argc, char ** args)
 {
 //Generate the mesh
-//system("matlab -nojvm -nosplash -nodisplay -r meshgen3");
+//system("matlab -nojvm -nosplash -nodisplay -r ./Meshgen/meshgen3");
   // Load the mesh.
   Mesh mesh;
   Mesh3DReader mesh_loader;
